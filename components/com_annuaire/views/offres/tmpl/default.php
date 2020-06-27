@@ -11,7 +11,7 @@ $isAdmin = (in_array('11', $user->groups));		// sets flag when user group is '11
 	<?php echo JError::raiseWarning( 100, JText::_('COM_ANNUAIRE_RESTRICTED_ACCESS') ); ?>
 <?php else : ?>
 
-	<h2><?php echo JText::_('COM_ANNUAIRE_OPTIONS')." : ".JText::_('COM_ANNUAIRE_CONTACTS')." - "; ?>
+	<h2><?php echo JText::_('COM_ANNUAIRE_OPTIONS')." : ".JText::_('COM_ANNUAIRE_OFFRES')." - "; ?>
 		<a href="<?php echo JRoute::_('index.php?option=com_annuaire&view=entreprises'); ?>">
 			<?php echo JText::_('COM_ANNUAIRE_ENTREPRISES'); ?>
 		</a>

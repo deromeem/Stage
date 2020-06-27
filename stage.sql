@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : Dim 21 juin 2020 à 21:57
--- Version du serveur :  10.4.11-MariaDB
--- Version de PHP : 7.2.30
+-- Généré le :  jeu. 25 juin 2020 à 16:15
+-- Version du serveur :  10.3.15-MariaDB
+-- Version de PHP :  7.3.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `stage`
+-- Base de données :  `stage`
 --
 
 -- --------------------------------------------------------
@@ -135,7 +136,21 @@ INSERT INTO `stage_action_logs` (`id`, `message_language_key`, `message`, `log_d
 (90, 'PLG_ACTIONLOG_JOOMLA_COMPONENT_CONFIG_UPDATED', '{\"action\":\"update\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_COMPONENT_CONFIG\",\"id\":\"10004\",\"title\":\"com_stage\",\"extension_name\":\"com_stage\",\"itemlink\":\"index.php?option=com_config&task=component.edit&extension_id=10004\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-21 19:42:54', 'com_config.component', 132, 10004, 'COM_ACTIONLOGS_DISABLED'),
 (91, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_UPDATED', '{\"action\":\"update\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MENU\",\"id\":3,\"title\":\"Menu stage\",\"itemlink\":\"index.php?option=com_menus&task=menu.edit&id=3\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-21 19:44:13', 'com_menus.menu', 132, 3, 'COM_ACTIONLOGS_DISABLED'),
 (92, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED', '{\"action\":\"add\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MENU_ITEM\",\"id\":117,\"title\":\"Utilisateurs\",\"itemlink\":\"index.php?option=com_menus&task=item.edit&id=117\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-21 19:44:51', 'com_menus.item', 132, 117, 'COM_ACTIONLOGS_DISABLED'),
-(93, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED', '{\"action\":\"add\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MODULE\",\"id\":91,\"title\":\"Administrateur\",\"extension_name\":\"Administrateur\",\"itemlink\":\"index.php?option=com_modules&task=module.edit&id=91\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-21 19:45:51', 'com_modules.module', 132, 91, 'COM_ACTIONLOGS_DISABLED');
+(93, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED', '{\"action\":\"add\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MODULE\",\"id\":91,\"title\":\"Administrateur\",\"extension_name\":\"Administrateur\",\"itemlink\":\"index.php?option=com_modules&task=module.edit&id=91\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-21 19:45:51', 'com_modules.module', 132, 91, 'COM_ACTIONLOGS_DISABLED'),
+(94, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-23 13:58:43', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(95, 'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN', '{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":\"132\",\"title\":\"SLAM\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"table\":\"#__modules\"}', '2020-06-23 13:59:46', 'com_checkin', 132, 132, 'COM_ACTIONLOGS_DISABLED'),
+(96, 'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN', '{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":\"132\",\"title\":\"SLAM\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"table\":\"#__modules\"}', '2020-06-23 14:00:25', 'com_checkin', 132, 132, 'COM_ACTIONLOGS_DISABLED'),
+(97, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_UPDATED', '{\"action\":\"update\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MENU_ITEM\",\"id\":117,\"title\":\"Utilisateurs\",\"itemlink\":\"index.php?option=com_menus&task=item.edit&id=117\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-23 14:01:03', 'com_menus.item', 132, 117, 'COM_ACTIONLOGS_DISABLED'),
+(98, 'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN', '{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":\"132\",\"title\":\"SLAM\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"table\":\"#__menu\"}', '2020-06-23 14:01:03', 'com_checkin', 132, 132, 'COM_ACTIONLOGS_DISABLED'),
+(99, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"133\",\"username\":\"sgaston\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=133\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-23 14:01:38', 'com_users', 133, 0, 'COM_ACTIONLOGS_DISABLED'),
+(100, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-23 14:20:43', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(101, 'PLG_ACTIONLOG_JOOMLA_USER_LOGIN_FAILED', '{\"action\":\"login\",\"id\":\"133\",\"userid\":\"133\",\"username\":\"sgaston\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=133\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-25 07:13:22', 'com_users', 133, 133, 'COM_ACTIONLOGS_DISABLED'),
+(102, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"133\",\"username\":\"sgaston\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=133\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-25 07:13:33', 'com_users', 133, 0, 'COM_ACTIONLOGS_DISABLED'),
+(103, 'PLG_ACTIONLOG_JOOMLA_USER_LOGIN_FAILED', '{\"action\":\"login\",\"id\":\"132\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 08:31:48', 'com_users', 132, 132, 'COM_ACTIONLOGS_DISABLED'),
+(104, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 08:31:58', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(105, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 09:09:47', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(106, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 09:28:47', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(107, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 10:52:03', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED');
 
 -- --------------------------------------------------------
 
@@ -280,7 +295,7 @@ CREATE TABLE `stage_annuaire_contacts` (
 
 INSERT INTO `stage_annuaire_contacts` (`id`, `nom`, `alias`, `prenom`, `civilites_id`, `typescontacts_id`, `entreprises_id`, `fonction`, `email`, `mobile`, `tel`, `commentaire`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
 (1, '-', '', '', 1, 1, 1, '', '', '', '', '', 0, '2015-12-17 10:57:13', 0, '0000-00-00 00:00:00', 0, 0),
-(2, 'DUPONT', 'dupont', 'Pierre', 2, 1, 1, '', '', '', '', '', 1, '2016-03-02 16:15:35', 540, '0000-00-00 00:00:00', 0, 0),
+(2, 'DUPONT', 'dupont', 'Pierre', 2, 1, 1, '', '', '', '', '', 1, '2016-03-02 16:15:35', 540, '2020-06-23 14:23:31', 133, 0),
 (3, 'SMITH', 'smith', 'Léa', 3, 1, 1, '', '', '', '', '', 1, '2016-03-02 16:16:17', 540, '0000-00-00 00:00:00', 0, 0);
 
 -- --------------------------------------------------------
@@ -319,7 +334,7 @@ CREATE TABLE `stage_annuaire_entreprises` (
 
 INSERT INTO `stage_annuaire_entreprises` (`id`, `nom`, `alias`, `logo`, `activite`, `codeAPE_NAF`, `numSIREN`, `numTVAintra`, `siteWeb`, `tel`, `adrRue`, `adrVille`, `adrCP`, `pays_id`, `commentaire`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
 (1, '-', '', 'Logo.png', '-', '', '', '', '', '', '', '', '', 1, '', 0, '2015-12-17 10:57:13', 0, '2016-01-20 18:59:22', 540, 0),
-(2, 'Accenture', 'monentreprise', 'Accenture.png', 'Services numériques', '', '', '', '', '', '', '', '', 8, '', 1, '2016-03-02 16:17:38', 540, '2020-06-21 18:38:46', 133, 0),
+(2, 'Accenture', 'monentreprise', 'Accenture.png', 'Services numériques', '', '', '', '', '', '', '', '', 8, '', 1, '2016-03-02 16:17:38', 540, '2020-06-23 14:02:17', 133, 0),
 (3, 'Sopra Steria', 'sopra-steria', 'SopraSteria.png', 'Services numériques', '7022Z', '', '', '', '', '', '', '', 2, '', 1, '2020-06-19 16:07:09', 132, '2020-06-19 16:07:24', 132, 0),
 (4, 'Carrefour', 'carrefour', 'Carrefour.png', 'Grande distribution', '', '', '', '', '', '', '', '', 2, '', 1, '2020-06-19 16:07:52', 132, '0000-00-00 00:00:00', 0, 0);
 
@@ -694,10 +709,10 @@ CREATE TABLE `stage_content` (
 --
 
 INSERT INTO `stage_content` (`id`, `asset_id`, `title`, `alias`, `introtext`, `fulltext`, `state`, `catid`, `created`, `created_by`, `created_by_alias`, `modified`, `modified_by`, `checked_out`, `checked_out_time`, `publish_up`, `publish_down`, `images`, `urls`, `attribs`, `version`, `ordering`, `metakey`, `metadesc`, `access`, `hits`, `metadata`, `featured`, `language`, `xreference`, `note`) VALUES
-(1, 60, 'Accueil', 'accueil', '<p><span style=\"font-size: 10pt;\">Bienvenue sur le site <strong>Stages BTS-SIO</strong> du lycée Louis-Armand (Paris 15e).</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:28:56', 132, '', '2020-06-19 15:28:56', 0, 0, '0000-00-00 00:00:00', '2020-06-19 15:28:56', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 1, 3, '', '', 1, 20, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
-(2, 61, 'Stages', 'stages', '<p><span style=\"font-size: 10pt;\">Tous les étudiants de BTS-SIO du lycée Louis-Armand doivent faire un stage en entreprise de 6 semaines chaque année.</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:37:06', 132, '', '2020-06-19 15:47:07', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:37:06', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 2, 2, '', '', 1, 2, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
-(3, 62, 'BTS-SIO', 'bts-sio', '<p><span style=\"font-size: 10pt;\">Le BTS-SIO, brevet de technicien supérieur Services informatiques aux organisations est un diplôme de technicien supérieur du secteur tertiaire de niveau 5 (<a href=\"https://www.enseignementsup-recherche.gouv.fr/cid72872/nomenclature-relative-au-niveau-de-diplome.html\">décret 2019-14 du 8 janvier 2019</a>).</span></p>\r\n<p><span style=\"font-size: 10pt;\">L’obtention du diplôme de BTS-SIO est conditionnée par deux années de formation et par 16 semaines de stage en entreprises.</span></p>\r\n<p><span style=\"font-size: 10pt;\">Le titulaire du diplôme participe à la production et à la fourniture de services informatiques à une organisation, soit en tant que collaborateur de cette organisation soit en tant qu’intervenant d’une entreprise de services du numérique, d’un éditeur de logiciels ou d’une société de conseil en technologies.</span></p>\r\n<p><span style=\"font-size: 10pt;\">Dans le cadre de ce référentiel, les activités à ce niveau de qualification débouchent sur deux domaines métiers distincts, auxquels correspondent les deux options du diplôme :</span></p>\r\n<ul>\r\n<li><span style=\"font-size: 10pt;\">Option A : solutions d’infrastructure, systèmes et réseaux (SISR).</span></li>\r\n<li><span style=\"font-size: 10pt;\">Option B : solutions logicielles et applications métiers (SLAM).</span></li>\r\n</ul>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:38:17', 132, '', '2020-06-19 15:44:22', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:38:17', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 2, 1, '', '', 1, 2, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
-(4, 63, 'Lycée Louis-Armand', 'lycee-la', '<p><span style=\"font-size: 10pt;\">Le Lycée Louis-Armand...</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:41:25', 132, '', '2020-06-19 16:14:46', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:41:25', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 3, 0, '', '', 1, 6, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', '');
+(1, 60, 'Accueil', 'accueil', '<p><span style=\"font-size: 10pt;\">Bienvenue sur le site <strong>Stages BTS-SIO</strong> du lycée Louis-Armand (Paris 15e).</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:28:56', 132, '', '2020-06-19 15:28:56', 0, 0, '0000-00-00 00:00:00', '2020-06-19 15:28:56', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 1, 3, '', '', 1, 27, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
+(2, 61, 'Stages', 'stages', '<p><span style=\"font-size: 10pt;\">Tous les étudiants de BTS-SIO du lycée Louis-Armand doivent faire un stage en entreprise de 6 semaines chaque année.</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:37:06', 132, '', '2020-06-19 15:47:07', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:37:06', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 2, 2, '', '', 1, 4, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
+(3, 62, 'BTS-SIO', 'bts-sio', '<p><span style=\"font-size: 10pt;\">Le BTS-SIO, brevet de technicien supérieur Services informatiques aux organisations est un diplôme de technicien supérieur du secteur tertiaire de niveau 5 (<a href=\"https://www.enseignementsup-recherche.gouv.fr/cid72872/nomenclature-relative-au-niveau-de-diplome.html\">décret 2019-14 du 8 janvier 2019</a>).</span></p>\r\n<p><span style=\"font-size: 10pt;\">L’obtention du diplôme de BTS-SIO est conditionnée par deux années de formation et par 16 semaines de stage en entreprises.</span></p>\r\n<p><span style=\"font-size: 10pt;\">Le titulaire du diplôme participe à la production et à la fourniture de services informatiques à une organisation, soit en tant que collaborateur de cette organisation soit en tant qu’intervenant d’une entreprise de services du numérique, d’un éditeur de logiciels ou d’une société de conseil en technologies.</span></p>\r\n<p><span style=\"font-size: 10pt;\">Dans le cadre de ce référentiel, les activités à ce niveau de qualification débouchent sur deux domaines métiers distincts, auxquels correspondent les deux options du diplôme :</span></p>\r\n<ul>\r\n<li><span style=\"font-size: 10pt;\">Option A : solutions d’infrastructure, systèmes et réseaux (SISR).</span></li>\r\n<li><span style=\"font-size: 10pt;\">Option B : solutions logicielles et applications métiers (SLAM).</span></li>\r\n</ul>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:38:17', 132, '', '2020-06-19 15:44:22', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:38:17', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 2, 1, '', '', 1, 4, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
+(4, 63, 'Lycée Louis-Armand', 'lycee-la', '<p><span style=\"font-size: 10pt;\">Le Lycée Louis-Armand...</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:41:25', 132, '', '2020-06-19 16:14:46', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:41:25', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 3, 0, '', '', 1, 8, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', '');
 
 -- --------------------------------------------------------
 
@@ -949,7 +964,7 @@ INSERT INTO `stage_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (449, 0, 'plg_authentication_cookie', 'plugin', 'cookie', 'authentication', 0, 1, 1, 0, '{\"name\":\"plg_authentication_cookie\",\"type\":\"plugin\",\"creationDate\":\"July 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_AUTH_COOKIE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"cookie\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (450, 0, 'plg_twofactorauth_yubikey', 'plugin', 'yubikey', 'twofactorauth', 0, 0, 1, 0, '{\"name\":\"plg_twofactorauth_yubikey\",\"type\":\"plugin\",\"creationDate\":\"September 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.2.0\",\"description\":\"PLG_TWOFACTORAUTH_YUBIKEY_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"yubikey\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (451, 0, 'plg_search_tags', 'plugin', 'tags', 'search', 0, 1, 1, 0, '{\"name\":\"plg_search_tags\",\"type\":\"plugin\",\"creationDate\":\"March 2014\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_SEARCH_TAGS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"tags\"}', '{\"search_limit\":\"50\",\"show_tagged_items\":\"1\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1592760019}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1593091161}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (453, 0, 'plg_editors-xtd_module', 'plugin', 'module', 'editors-xtd', 0, 1, 1, 0, '{\"name\":\"plg_editors-xtd_module\",\"type\":\"plugin\",\"creationDate\":\"October 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_MODULE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"module\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (454, 0, 'plg_system_stats', 'plugin', 'stats', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_stats\",\"type\":\"plugin\",\"creationDate\":\"November 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_STATS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"stats\"}', '{\"mode\":3,\"lastrun\":1592577477,\"unique_id\":\"0337cccd2ff8e41e2ac4ef76d0a214e79e474e46\",\"interval\":12}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (455, 0, 'plg_installer_packageinstaller', 'plugin', 'packageinstaller', 'installer', 0, 1, 1, 1, '{\"name\":\"plg_installer_packageinstaller\",\"type\":\"plugin\",\"creationDate\":\"May 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.6.0\",\"description\":\"PLG_INSTALLER_PACKAGEINSTALLER_PLUGIN_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"packageinstaller\"}', '', '', '', 0, '0000-00-00 00:00:00', 1, 0),
@@ -1768,7 +1783,7 @@ INSERT INTO `stage_modules` (`id`, `asset_id`, `title`, `note`, `content`, `orde
 (88, 58, 'Dernière actions', '', '', 0, 'cpanel', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_latestactions', 6, 1, '{}', 1, '*'),
 (89, 59, 'Privacy Dashboard', '', '', 0, 'cpanel', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_privacy_dashboard', 6, 1, '{}', 1, '*'),
 (90, 66, 'Annuaire', '', NULL, 1, 'position-7', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 2, 1, '{\"menutype\":\"menu-annuaire\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
-(91, 70, 'Administrateur', '', NULL, 1, 'position-7', 132, '2020-06-21 19:45:51', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 7, 1, '{\"menutype\":\"menu-stage\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*');
+(91, 70, 'Administrateur', '', NULL, 1, 'position-7', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 7, 1, '{\"menutype\":\"menu-stage\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*');
 
 -- --------------------------------------------------------
 
@@ -1990,9 +2005,385 @@ CREATE TABLE `stage_session` (
 --
 
 INSERT INTO `stage_session` (`session_id`, `client_id`, `guest`, `time`, `data`, `userid`, `username`) VALUES
-(0x336f71756239336537393368366a6a666d6a6d3335386c307171, 1, 1, 1592767691, 'joomla|s:596:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aToxO3M6NToidG9rZW4iO3M6MzI6IndvdDhZN0F3aUZpQ3VQN24wN0ZRR0pqenBwd2E1bW9qIjt9czo4OiJyZWdpc3RyeSI7TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjA6e31zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtpOjA7fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 0, ''),
-(0x61633269366c706161616c3133373168366f6c726f39366f6c6a, 0, 0, 1592769140, 'joomla|s:1400:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo1MDtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1OTI3NjgwOTM7czo0OiJsYXN0IjtpOjE1OTI3NjkxMzc7czozOiJub3ciO2k6MTU5Mjc2OTE0MDt9czo1OiJ0b2tlbiI7czozMjoiRTdCR3plbXhyNWlUQ2cwWFhzelpubXNuTHlUWnNEMEkiO31zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJ1c2VycyI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJsb2dpbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJmb3JtIjtPOjg6InN0ZENsYXNzIjoyOntzOjY6InJldHVybiI7czo3MToiaHR0cDovL2xvY2FsaG9zdC9zdGFnZS9pbmRleC5waHAvY29tcG9uZW50L3VzZXJzLz92aWV3PWxvZ2luJkl0ZW1pZD0xMDgiO3M6NDoiZGF0YSI7YTowOnt9fX19czoxMjoiY29tX2FubnVhaXJlIjtPOjg6InN0ZENsYXNzIjoxOntzOjQ6ImVkaXQiO086ODoic3RkQ2xhc3MiOjE6e3M6MTA6ImVudHJlcHJpc2UiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZGF0YSI7Tjt9fX1zOjk6ImNvbV9zdGFnZSI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJlZGl0IjtPOjg6InN0ZENsYXNzIjoxOntzOjExOiJ1dGlsaXNhdGV1ciI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJkYXRhIjtOO319fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtzOjM6IjEzMyI7fXM6MTE6ImFwcGxpY2F0aW9uIjtPOjg6InN0ZENsYXNzIjoxOntzOjU6InF1ZXVlIjthOjA6e319fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO30=\";', 133, 'sgaston'),
-(0x6c6d646e64323537743273733875703673707062376331373075, 1, 0, 1592768752, 'joomla|s:2344:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo2NjtzOjU6InRva2VuIjtzOjMyOiI5Rmx6cTlqandVS01VcVNiYkR6SlBnVGhsMWlwQ2tkayI7czo1OiJ0aW1lciI7Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJzdGFydCI7aToxNTkyNzY3Njk4O3M6NDoibGFzdCI7aToxNTkyNzY4NzUyO3M6Mzoibm93IjtpOjE1OTI3Njg3NTI7fX1zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6NDp7czoxMzoiY29tX2luc3RhbGxlciI7Tzo4OiJzdGRDbGFzcyI6NDp7czo3OiJtZXNzYWdlIjtzOjA6IiI7czoxNzoiZXh0ZW5zaW9uX21lc3NhZ2UiO3M6MDoiIjtzOjEyOiJyZWRpcmVjdF91cmwiO047czo2OiJtYW5hZ2UiO086ODoic3RkQ2xhc3MiOjM6e3M6NjoiZmlsdGVyIjthOjU6e3M6Njoic2VhcmNoIjtzOjA6IiI7czo2OiJzdGF0dXMiO3M6MDoiIjtzOjk6ImNsaWVudF9pZCI7czowOiIiO3M6NDoidHlwZSI7czowOiIiO3M6NjoiZm9sZGVyIjtzOjA6IiI7fXM6NDoibGlzdCI7YToyOntzOjEyOiJmdWxsb3JkZXJpbmciO3M6MTc6ImV4dGVuc2lvbl9pZCBERVNDIjtzOjU6ImxpbWl0IjtzOjI6IjIwIjt9czoxMDoibGltaXRzdGFydCI7aTowO319czo5OiJjb21fc3RhZ2UiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZWRpdCI7Tzo4OiJzdGRDbGFzcyI6MTp7czoxMToidXRpbGlzYXRldXIiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZGF0YSI7Tjt9fX1zOjk6ImNvbV9tZW51cyI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo0OiJlZGl0IjtPOjg6InN0ZENsYXNzIjoyOntzOjQ6Im1lbnUiO086ODoic3RkQ2xhc3MiOjI6e3M6NDoiZGF0YSI7TjtzOjI6ImlkIjthOjA6e319czo0OiJpdGVtIjtPOjg6InN0ZENsYXNzIjo0OntzOjQ6ImRhdGEiO047czo0OiJ0eXBlIjtOO3M6NDoibGluayI7TjtzOjI6ImlkIjthOjA6e319fXM6NToiaXRlbXMiO086ODoic3RkQ2xhc3MiOjQ6e3M6ODoibWVudXR5cGUiO3M6MTA6Im1lbnUtc3RhZ2UiO3M6OToiY2xpZW50X2lkIjtpOjA7czoxMDoibGltaXRzdGFydCI7aTowO3M6NDoibGlzdCI7YTo0OntzOjk6ImRpcmVjdGlvbiI7czozOiJhc2MiO3M6NToibGltaXQiO3M6MjoiMjAiO3M6ODoib3JkZXJpbmciO3M6NToiYS5sZnQiO3M6NToic3RhcnQiO2Q6MDt9fX1zOjExOiJjb21fbW9kdWxlcyI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo0OiJlZGl0IjtPOjg6InN0ZENsYXNzIjoxOntzOjY6Im1vZHVsZSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo0OiJkYXRhIjtOO3M6MjoiaWQiO2E6MTp7aTowO2k6OTE7fX19czozOiJhZGQiO086ODoic3RkQ2xhc3MiOjE6e3M6NjoibW9kdWxlIjtPOjg6InN0ZENsYXNzIjoyOntzOjEyOiJleHRlbnNpb25faWQiO047czo2OiJwYXJhbXMiO047fX19fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fXM6NDoidXNlciI7TzoyMDoiSm9vbWxhXENNU1xVc2VyXFVzZXIiOjE6e3M6MjoiaWQiO3M6MzoiMTMyIjt9czoxMToiYXBwbGljYXRpb24iO086ODoic3RkQ2xhc3MiOjE6e3M6NToicXVldWUiO2E6MDp7fX19fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 132, 'SLAM');
+(0x356f34766762736f683463346230747437346f6170766d386b70, 1, 0, 1593082616, 'joomla|s:744:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo2O3M6NToidG9rZW4iO3M6MzI6IkVpV0FudERFbVlrZHZvS05mazdleVBreDBDVW5IejhrIjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1OTMwODIzMjM7czo0OiJsYXN0IjtpOjE1OTMwODI2MTE7czozOiJub3ciO2k6MTU5MzA4MjYxNjt9fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiIxMzIiO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 132, 'SLAM'),
+(0x6b70326c72716e6e306f6e61696a636664323331386d64646772, 1, 1, 1592922035, 'joomla|s:596:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aToxO3M6NToidG9rZW4iO3M6MzI6IjVqOE9XaG1CaXNITWJERkhQZW5MclBTa2dRdmw0NmhnIjt9czo4OiJyZWdpc3RyeSI7TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjA6e31zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtpOjA7fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 0, ''),
+(0x733276746267753838693970346e33303467356f6e6d3670356b, 1, 1, 1593077320, 'joomla|s:596:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aToxO3M6NToidG9rZW4iO3M6MzI6Ill5bDhlWmZrRzFYNG13REc4Mkk1blRUaHNmU1M4RVFLIjt9czo4OiJyZWdpc3RyeSI7TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjA6e31zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtpOjA7fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 0, ''),
+(0x736864393165703639626c673036376f66633037386b67676f38, 0, 0, 1593094521, 'joomla|s:1240:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo1MDtzOjU6InRva2VuIjtzOjMyOiJCWDAxMjhvZUEzQldOM3E5SXNKajZ1azBzMFBMM2h0USI7czo1OiJ0aW1lciI7Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJzdGFydCI7aToxNTkzMDY5MjAyO3M6NDoibGFzdCI7aToxNTkzMDkzNjgxO3M6Mzoibm93IjtpOjE1OTMwOTQ1MjE7fX1zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo1OiJ1c2VycyI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJsb2dpbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJmb3JtIjtPOjg6InN0ZENsYXNzIjoyOntzOjY6InJldHVybiI7czo3MToiaHR0cDovL2xvY2FsaG9zdC9zdGFnZS9pbmRleC5waHAvY29tcG9uZW50L3VzZXJzLz92aWV3PWxvZ2luJkl0ZW1pZD0xMDgiO3M6NDoiZGF0YSI7YTowOnt9fX19czo5OiJjb21fc3RhZ2UiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZWRpdCI7Tzo4OiJzdGRDbGFzcyI6MTp7czoxMToidXRpbGlzYXRldXIiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZGF0YSI7Tjt9fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiIxMzMiO31zOjExOiJhcHBsaWNhdGlvbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJxdWV1ZSI7YTowOnt9fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 133, 'sgaston');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_candidatures`
+--
+
+CREATE TABLE `stage_stage_candidatures` (
+  `id` int(11) NOT NULL,
+  `motivation` text NOT NULL,
+  `url_cv` text NOT NULL,
+  `url_lettre` text NOT NULL,
+  `etat_candidatures_id` int(11) NOT NULL,
+  `etudiants_id` int(11) NOT NULL,
+  `offres_id` int(11) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_candidatures`
+--
+
+INSERT INTO `stage_stage_candidatures` (`id`, `motivation`, `url_cv`, `url_lettre`, `etat_candidatures_id`, `etudiants_id`, `offres_id`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'Bonjour je suis un eleve serieux avec des base de html et css', 'http://cv.com', 'http://lettre.com', 1, 1, 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'Bounjour je suis un eleve perfectionniste et j\'ai des base en cisco packet tracer', 'http://cv.com', 'http://lettre.com', 2, 2, 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'Bonjour je suis un eleve', 'http://cv.com', 'http://lettre.com', 3, 3, 3, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_classes`
+--
+
+CREATE TABLE `stage_stage_classes` (
+  `id` int(11) NOT NULL,
+  `Nom` text NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_classes`
+--
+
+INSERT INTO `stage_stage_classes` (`id`, `Nom`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'SIO1', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'SN1', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'STI2D1', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_classes_professeurs`
+--
+
+CREATE TABLE `stage_stage_classes_professeurs` (
+  `id` int(11) NOT NULL,
+  `classes_id` int(11) NOT NULL,
+  `professeurs_id` int(11) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `stage_stage_classes_professeurs`
+--
+
+INSERT INTO `stage_stage_classes_professeurs` (`id`, `classes_id`, `professeurs_id`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 1, 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 2, 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_dir_techniques`
+--
+
+CREATE TABLE `stage_stage_dir_techniques` (
+  `id` int(11) NOT NULL,
+  `Nom` text NOT NULL,
+  `Prenom` text NOT NULL,
+  `Tel` text NOT NULL,
+  `Mail` text NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_documents`
+--
+
+CREATE TABLE `stage_stage_documents` (
+  `id` int(11) NOT NULL,
+  `titre` text NOT NULL,
+  `url` text NOT NULL,
+  `stagiaires_id` int(11) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_documents`
+--
+
+INSERT INTO `stage_stage_documents` (`id`, `titre`, `url`, `stagiaires_id`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'Photo', 'photo.com', 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'doc', 'doc.com', 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'tableur', 'tableur.com', 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_etat_candidatures`
+--
+
+CREATE TABLE `stage_stage_etat_candidatures` (
+  `id` int(11) NOT NULL,
+  `etat` text NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_etat_candidatures`
+--
+
+INSERT INTO `stage_stage_etat_candidatures` (`id`, `etat`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, '-', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, '1 - Proposée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, '2 - Acceptée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(4, '3 - Refusée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(5, '4 - Convention signée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_etat_offres`
+--
+
+CREATE TABLE `stage_stage_etat_offres` (
+  `id` int(11) NOT NULL,
+  `etat` varchar(50) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `stage_stage_etat_offres`
+--
+
+INSERT INTO `stage_stage_etat_offres` (`id`, `etat`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, '-', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, '1 - Proposée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, '2 - Validée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(4, '3 - Refusée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(5, '4 - Fermée', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_etudiants`
+--
+
+CREATE TABLE `stage_stage_etudiants` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `classes_id` int(11) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_etudiants`
+--
+
+INSERT INTO `stage_stage_etudiants` (`id`, `email`, `classes_id`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'dandré@gmail.com', 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'eric.danpierre@gmail.com', 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'fara.amrouss@gmail.com', 3, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_offres`
+--
+
+CREATE TABLE `stage_stage_offres` (
+  `id` int(11) NOT NULL,
+  `titre` text NOT NULL,
+  `description` text NOT NULL,
+  `date_debut` date NOT NULL,
+  `date_fin` date NOT NULL,
+  `etat_offres_id` int(11) NOT NULL,
+  `utilisateurs_id` int(11) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_offres`
+--
+
+INSERT INTO `stage_stage_offres` (`id`, `titre`, `description`, `date_debut`, `date_fin`, `etat_offres_id`, `utilisateurs_id`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'Developpement', 'recherche un eleve avec des connaissances en HTML et css', '2020-06-01', '2020-06-26', 0, 4, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'Reseau', 'Je recherche un eleve avec des connaissances en cisco packet tracer', '2020-06-01', '2020-06-19', 0, 3, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'Reseau', 'Je recherche un eleve avec des connaissances en Vlan ', '2020-06-01', '2020-06-12', 0, 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_organisations`
+--
+
+CREATE TABLE `stage_stage_organisations` (
+  `id` int(11) NOT NULL,
+  `Nom` text NOT NULL,
+  `Activité` text NOT NULL,
+  `adr_rue` text NOT NULL,
+  `adr_cp` text NOT NULL,
+  `adr_ville` text NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_organisations`
+--
+
+INSERT INTO `stage_stage_organisations` (`id`, `Nom`, `Activité`, `adr_rue`, `adr_cp`, `adr_ville`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'Derome techs', 'informatique', '125 rue de la palourde', '75018', 'Paris', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'Sabur&co', 'Création de logiciel', '2 rue de la sainte marie', '75006', 'Paris', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'Loutreuil Production', 'Developpement', '15 rue de la boulette', '75004', 'Paris', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_professeurs`
+--
+
+CREATE TABLE `stage_stage_professeurs` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `matiere` varchar(100) NOT NULL,
+  `principal` tinyint(1) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_professeurs`
+--
+
+INSERT INTO `stage_stage_professeurs` (`id`, `email`, `matiere`, `principal`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'martymc@gmail.com', 'Musique', 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'ricks@yahoo.com', 'Sciences ', 0, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'miket@gmail.com', 'Sport', 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_stagiaires`
+--
+
+CREATE TABLE `stage_stage_stagiaires` (
+  `id` int(11) NOT NULL,
+  `mission` text NOT NULL,
+  `DateDebut` date NOT NULL,
+  `DateFin` date NOT NULL,
+  `id_etudiant` int(11) NOT NULL,
+  `id_candidature` int(11) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_stagiaires`
+--
+
+INSERT INTO `stage_stage_stagiaires` (`id`, `mission`, `DateDebut`, `DateFin`, `id_etudiant`, `id_candidature`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'tout faire', '2020-06-01', '2020-06-19', 2, 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `stage_stage_tuteurs`
+--
+
+CREATE TABLE `stage_stage_tuteurs` (
+  `id` int(11) NOT NULL,
+  `Nom` text NOT NULL,
+  `Prenom` text NOT NULL,
+  `Tel` text NOT NULL,
+  `Mail` text NOT NULL,
+  `Fonction` text NOT NULL,
+  `id_organisation` int(11) NOT NULL,
+  `alias` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
+  `published` tinyint(1) NOT NULL DEFAULT 1,
+  `created` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `created_by` int(11) NOT NULL DEFAULT 0,
+  `modified` datetime NOT NULL DEFAULT '2020-01-01 00:00:00',
+  `modified_by` int(11) NOT NULL DEFAULT 0,
+  `hits` int(11) UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `stage_stage_tuteurs`
+--
+
+INSERT INTO `stage_stage_tuteurs` (`id`, `Nom`, `Prenom`, `Tel`, `Mail`, `Fonction`, `id_organisation`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+(1, 'macron', 'manu', '0105020405', 'manum@gmail.com', 'plonjeur', 1, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(2, 'le pelle', 'jean-marie', '0623548936', 'jmpelle@yahoo.com', 'commercial', 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'Strak', 'Tomy', '0654125836', 'tomy.strak@gmail.com', 'directeur', 3, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2020,7 +2411,9 @@ CREATE TABLE `stage_stage_utilisateurs` (
 
 INSERT INTO `stage_stage_utilisateurs` (`id`, `nom`, `prenom`, `email`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
 (1, '-', '', '', '', 0, '2020-06-18 18:00:00', 0, '2020-06-18 18:00:00', 0, 0),
-(40, 'DUPOND', 'Marcel', 'mdupond@stage.fr', 'dupond', 1, '2020-06-21 19:40:54', 132, '2020-06-21 19:52:05', 133, 0);
+(2, 'DUPOND', 'Marcel', 'mdupond@stage.fr', 'dupond', 1, '2020-06-21 19:40:54', 132, '2020-06-25 08:28:54', 133, 0),
+(3, 'JEAN', 'Martin', 'martin.jean@stage.fr', 'martin', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(4, 'NOTE', 'Yvan', 'yvan.note@stage.fr', 'note', 1, '2020-06-25 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2202,88 +2595,6 @@ CREATE TABLE `stage_updates` (
   `extra_query` varchar(1000) COLLATE utf8mb4_unicode_ci DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Available Updates';
 
---
--- Déchargement des données de la table `stage_updates`
---
-
-INSERT INTO `stage_updates` (`update_id`, `update_site_id`, `extension_id`, `name`, `description`, `element`, `type`, `folder`, `client_id`, `version`, `data`, `detailsurl`, `infourl`, `extra_query`) VALUES
-(153, 2, 0, 'Armenian', '', 'pkg_hy-AM', 'package', '', 0, '3.4.4.1', '', 'https://update.joomla.org/language/details3/hy-AM_details.xml', '', ''),
-(154, 2, 0, 'Malay', '', 'pkg_ms-MY', 'package', '', 0, '3.4.1.2', '', 'https://update.joomla.org/language/details3/ms-MY_details.xml', '', ''),
-(155, 2, 0, 'Romanian', '', 'pkg_ro-RO', 'package', '', 0, '3.9.13.1', '', 'https://update.joomla.org/language/details3/ro-RO_details.xml', '', ''),
-(156, 2, 0, 'Flemish', '', 'pkg_nl-BE', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/nl-BE_details.xml', '', ''),
-(157, 2, 0, 'Chinese Traditional', '', 'pkg_zh-TW', 'package', '', 0, '3.8.0.1', '', 'https://update.joomla.org/language/details3/zh-TW_details.xml', '', ''),
-(158, 2, 0, 'Galician', '', 'pkg_gl-ES', 'package', '', 0, '3.3.1.2', '', 'https://update.joomla.org/language/details3/gl-ES_details.xml', '', ''),
-(159, 2, 0, 'Georgian', '', 'pkg_ka-GE', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/ka-GE_details.xml', '', ''),
-(160, 2, 0, 'Greek', '', 'pkg_el-GR', 'package', '', 0, '3.9.18.1', '', 'https://update.joomla.org/language/details3/el-GR_details.xml', '', ''),
-(161, 2, 0, 'Japanese', '', 'pkg_ja-JP', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/ja-JP_details.xml', '', ''),
-(162, 2, 0, 'Hebrew', '', 'pkg_he-IL', 'package', '', 0, '3.1.1.2', '', 'https://update.joomla.org/language/details3/he-IL_details.xml', '', ''),
-(163, 2, 0, 'Bengali', '', 'pkg_bn-BD', 'package', '', 0, '3.8.10.1', '', 'https://update.joomla.org/language/details3/bn-BD_details.xml', '', ''),
-(164, 2, 0, 'Hungarian', '', 'pkg_hu-HU', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/hu-HU_details.xml', '', ''),
-(165, 2, 0, 'Afrikaans', '', 'pkg_af-ZA', 'package', '', 0, '3.9.16.1', '', 'https://update.joomla.org/language/details3/af-ZA_details.xml', '', ''),
-(166, 2, 0, 'Arabic Unitag', '', 'pkg_ar-AA', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/ar-AA_details.xml', '', ''),
-(167, 2, 0, 'Belarusian', '', 'pkg_be-BY', 'package', '', 0, '3.2.1.2', '', 'https://update.joomla.org/language/details3/be-BY_details.xml', '', ''),
-(168, 2, 0, 'Bulgarian', '', 'pkg_bg-BG', 'package', '', 0, '3.6.5.2', '', 'https://update.joomla.org/language/details3/bg-BG_details.xml', '', ''),
-(169, 2, 0, 'Catalan', '', 'pkg_ca-ES', 'package', '', 0, '3.9.11.2', '', 'https://update.joomla.org/language/details3/ca-ES_details.xml', '', ''),
-(170, 2, 0, 'Chinese Simplified', '', 'pkg_zh-CN', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/zh-CN_details.xml', '', ''),
-(171, 2, 0, 'Croatian', '', 'pkg_hr-HR', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/hr-HR_details.xml', '', ''),
-(172, 2, 0, 'Czech', '', 'pkg_cs-CZ', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/cs-CZ_details.xml', '', ''),
-(173, 2, 0, 'Danish', '', 'pkg_da-DK', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/da-DK_details.xml', '', ''),
-(174, 2, 0, 'Dutch', '', 'pkg_nl-NL', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/nl-NL_details.xml', '', ''),
-(175, 2, 0, 'Esperanto', '', 'pkg_eo-XX', 'package', '', 0, '3.8.11.1', '', 'https://update.joomla.org/language/details3/eo-XX_details.xml', '', ''),
-(176, 2, 0, 'Estonian', '', 'pkg_et-EE', 'package', '', 0, '3.9.14.2', '', 'https://update.joomla.org/language/details3/et-EE_details.xml', '', ''),
-(177, 2, 0, 'Italian', '', 'pkg_it-IT', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/it-IT_details.xml', '', ''),
-(178, 2, 0, 'Khmer', '', 'pkg_km-KH', 'package', '', 0, '3.4.5.1', '', 'https://update.joomla.org/language/details3/km-KH_details.xml', '', ''),
-(179, 2, 0, 'Korean', '', 'pkg_ko-KR', 'package', '', 0, '3.8.9.1', '', 'https://update.joomla.org/language/details3/ko-KR_details.xml', '', ''),
-(180, 2, 0, 'Latvian', '', 'pkg_lv-LV', 'package', '', 0, '3.7.3.1', '', 'https://update.joomla.org/language/details3/lv-LV_details.xml', '', ''),
-(181, 2, 0, 'Lithuanian', '', 'pkg_lt-LT', 'package', '', 0, '3.9.6.1', '', 'https://update.joomla.org/language/details3/lt-LT_details.xml', '', ''),
-(182, 2, 0, 'Macedonian', '', 'pkg_mk-MK', 'package', '', 0, '3.6.5.1', '', 'https://update.joomla.org/language/details3/mk-MK_details.xml', '', ''),
-(183, 2, 0, 'Norwegian Bokmal', '', 'pkg_nb-NO', 'package', '', 0, '3.8.11.1', '', 'https://update.joomla.org/language/details3/nb-NO_details.xml', '', ''),
-(184, 2, 0, 'Norwegian Nynorsk', '', 'pkg_nn-NO', 'package', '', 0, '3.4.2.1', '', 'https://update.joomla.org/language/details3/nn-NO_details.xml', '', ''),
-(185, 2, 0, 'Persian', '', 'pkg_fa-IR', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/fa-IR_details.xml', '', ''),
-(186, 2, 0, 'Polish', '', 'pkg_pl-PL', 'package', '', 0, '3.9.13.1', '', 'https://update.joomla.org/language/details3/pl-PL_details.xml', '', ''),
-(187, 2, 0, 'Portuguese', '', 'pkg_pt-PT', 'package', '', 0, '3.9.15.1', '', 'https://update.joomla.org/language/details3/pt-PT_details.xml', '', ''),
-(188, 2, 0, 'Russian', '', 'pkg_ru-RU', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/ru-RU_details.xml', '', ''),
-(189, 2, 0, 'English AU', '', 'pkg_en-AU', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/en-AU_details.xml', '', ''),
-(190, 2, 0, 'Slovak', '', 'pkg_sk-SK', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/sk-SK_details.xml', '', ''),
-(191, 2, 0, 'English US', '', 'pkg_en-US', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/en-US_details.xml', '', ''),
-(192, 2, 0, 'Swedish', '', 'pkg_sv-SE', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/sv-SE_details.xml', '', ''),
-(193, 2, 0, 'Syriac', '', 'pkg_sy-IQ', 'package', '', 0, '3.4.5.1', '', 'https://update.joomla.org/language/details3/sy-IQ_details.xml', '', ''),
-(194, 2, 0, 'Tamil', '', 'pkg_ta-IN', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/ta-IN_details.xml', '', ''),
-(195, 2, 0, 'Thai', '', 'pkg_th-TH', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/th-TH_details.xml', '', ''),
-(196, 2, 0, 'Turkish', '', 'pkg_tr-TR', 'package', '', 0, '3.9.4.1', '', 'https://update.joomla.org/language/details3/tr-TR_details.xml', '', ''),
-(197, 2, 0, 'Ukrainian', '', 'pkg_uk-UA', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/uk-UA_details.xml', '', ''),
-(198, 2, 0, 'Uyghur', '', 'pkg_ug-CN', 'package', '', 0, '3.7.5.2', '', 'https://update.joomla.org/language/details3/ug-CN_details.xml', '', ''),
-(199, 2, 0, 'Albanian', '', 'pkg_sq-AL', 'package', '', 0, '3.1.1.2', '', 'https://update.joomla.org/language/details3/sq-AL_details.xml', '', ''),
-(200, 2, 0, 'Basque', '', 'pkg_eu-ES', 'package', '', 0, '3.7.5.1', '', 'https://update.joomla.org/language/details3/eu-ES_details.xml', '', ''),
-(201, 2, 0, 'Hindi', '', 'pkg_hi-IN', 'package', '', 0, '3.3.6.2', '', 'https://update.joomla.org/language/details3/hi-IN_details.xml', '', ''),
-(202, 2, 0, 'German DE', '', 'pkg_de-DE', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/de-DE_details.xml', '', ''),
-(203, 2, 0, 'Portuguese Brazil', '', 'pkg_pt-BR', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/pt-BR_details.xml', '', ''),
-(204, 2, 0, 'Serbian Latin', '', 'pkg_sr-YU', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/sr-YU_details.xml', '', ''),
-(205, 2, 0, 'Spanish', '', 'pkg_es-ES', 'package', '', 0, '3.9.18.1', '', 'https://update.joomla.org/language/details3/es-ES_details.xml', '', ''),
-(206, 2, 0, 'Bosnian', '', 'pkg_bs-BA', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/bs-BA_details.xml', '', ''),
-(207, 2, 0, 'Serbian Cyrillic', '', 'pkg_sr-RS', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/sr-RS_details.xml', '', ''),
-(208, 2, 0, 'Vietnamese', '', 'pkg_vi-VN', 'package', '', 0, '3.2.1.2', '', 'https://update.joomla.org/language/details3/vi-VN_details.xml', '', ''),
-(209, 2, 0, 'Bahasa Indonesia', '', 'pkg_id-ID', 'package', '', 0, '3.6.2.1', '', 'https://update.joomla.org/language/details3/id-ID_details.xml', '', ''),
-(210, 2, 0, 'Finnish', '', 'pkg_fi-FI', 'package', '', 0, '3.9.16.1', '', 'https://update.joomla.org/language/details3/fi-FI_details.xml', '', ''),
-(211, 2, 0, 'Swahili', '', 'pkg_sw-KE', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/sw-KE_details.xml', '', ''),
-(212, 2, 0, 'Montenegrin', '', 'pkg_srp-ME', 'package', '', 0, '3.3.1.2', '', 'https://update.joomla.org/language/details3/srp-ME_details.xml', '', ''),
-(213, 2, 0, 'English CA', '', 'pkg_en-CA', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/en-CA_details.xml', '', ''),
-(214, 2, 0, 'French CA', '', 'pkg_fr-CA', 'package', '', 0, '3.6.5.1', '', 'https://update.joomla.org/language/details3/fr-CA_details.xml', '', ''),
-(215, 2, 0, 'Welsh', '', 'pkg_cy-GB', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/cy-GB_details.xml', '', ''),
-(216, 2, 0, 'Sinhala', '', 'pkg_si-LK', 'package', '', 0, '3.3.1.2', '', 'https://update.joomla.org/language/details3/si-LK_details.xml', '', ''),
-(217, 2, 0, 'Dari Persian', '', 'pkg_prs-AF', 'package', '', 0, '3.4.4.3', '', 'https://update.joomla.org/language/details3/prs-AF_details.xml', '', ''),
-(218, 2, 0, 'Turkmen', '', 'pkg_tk-TM', 'package', '', 0, '3.5.0.2', '', 'https://update.joomla.org/language/details3/tk-TM_details.xml', '', ''),
-(219, 2, 0, 'Irish', '', 'pkg_ga-IE', 'package', '', 0, '3.8.13.1', '', 'https://update.joomla.org/language/details3/ga-IE_details.xml', '', ''),
-(220, 2, 0, 'Dzongkha', '', 'pkg_dz-BT', 'package', '', 0, '3.6.2.1', '', 'https://update.joomla.org/language/details3/dz-BT_details.xml', '', ''),
-(221, 2, 0, 'Slovenian', '', 'pkg_sl-SI', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/sl-SI_details.xml', '', ''),
-(222, 2, 0, 'Spanish CO', '', 'pkg_es-CO', 'package', '', 0, '3.9.15.1', '', 'https://update.joomla.org/language/details3/es-CO_details.xml', '', ''),
-(223, 2, 0, 'German CH', '', 'pkg_de-CH', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/de-CH_details.xml', '', ''),
-(224, 2, 0, 'German AT', '', 'pkg_de-AT', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/de-AT_details.xml', '', ''),
-(225, 2, 0, 'German LI', '', 'pkg_de-LI', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/de-LI_details.xml', '', ''),
-(226, 2, 0, 'German LU', '', 'pkg_de-LU', 'package', '', 0, '3.9.19.2', '', 'https://update.joomla.org/language/details3/de-LU_details.xml', '', ''),
-(227, 2, 0, 'English NZ', '', 'pkg_en-NZ', 'package', '', 0, '3.9.19.1', '', 'https://update.joomla.org/language/details3/en-NZ_details.xml', '', ''),
-(228, 2, 0, 'Kazakh', '', 'pkg_kk-KZ', 'package', '', 0, '3.9.17.1', '', 'https://update.joomla.org/language/details3/kk-KZ_details.xml', '', '');
-
 -- --------------------------------------------------------
 
 --
@@ -2305,9 +2616,9 @@ CREATE TABLE `stage_update_sites` (
 --
 
 INSERT INTO `stage_update_sites` (`update_site_id`, `name`, `type`, `location`, `enabled`, `last_check_timestamp`, `extra_query`) VALUES
-(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1592764649, ''),
-(2, 'Accredited Joomla! Translations', 'collection', 'https://update.joomla.org/language/translationlist_3.xml', 1, 1592764648, ''),
-(3, 'Joomla! Update Component Update Site', 'extension', 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', 1, 1592764648, '');
+(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1593073923, ''),
+(2, 'Accredited Joomla! Translations', 'collection', 'https://update.joomla.org/language/translationlist_3.xml', 1, 1593073922, ''),
+(3, 'Joomla! Update Component Update Site', 'extension', 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', 1, 1593073922, '');
 
 -- --------------------------------------------------------
 
@@ -2394,8 +2705,8 @@ CREATE TABLE `stage_users` (
 --
 
 INSERT INTO `stage_users` (`id`, `name`, `username`, `email`, `password`, `block`, `sendEmail`, `registerDate`, `lastvisitDate`, `activation`, `params`, `lastResetTime`, `resetCount`, `otpKey`, `otep`, `requireReset`) VALUES
-(132, 'Super Utilisateur', 'SLAM', 'emmanuel.derome@gmail.com', '$2y$10$rHr583FZNk8T1d3d.X6Ksu5tW/LbSlWGo4jE5ESRFMvqTKWlAlmOm', 0, 1, '2020-06-19 14:32:40', '2020-06-21 19:28:18', '0', '', '0000-00-00 00:00:00', 0, '', '', 0),
-(133, 'Directeur Technique', 'sgaston', 'directeurtechnique.louisarmand@gmail.com', '$2y$10$sweBuGUgrUCiZMu5ro/oXOBUM3lBBSWvg0LeH0iNJlqbS.Ok4qH..', 0, 0, '2020-06-19 15:49:53', '2020-06-21 19:41:38', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0),
+(132, 'Super Utilisateur', 'SLAM', 'emmanuel.derome@gmail.com', '$2y$10$rHr583FZNk8T1d3d.X6Ksu5tW/LbSlWGo4jE5ESRFMvqTKWlAlmOm', 0, 1, '2020-06-19 14:32:40', '2020-06-25 10:52:03', '0', '', '0000-00-00 00:00:00', 0, '', '', 0),
+(133, 'Directeur Technique', 'sgaston', 'directeurtechnique.louisarmand@gmail.com', '$2y$10$sweBuGUgrUCiZMu5ro/oXOBUM3lBBSWvg0LeH0iNJlqbS.Ok4qH..', 0, 0, '2020-06-19 15:49:53', '2020-06-25 07:13:33', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0),
 (134, 'Marcel DUPOND', 'mdupond', 'mdupond@monentreprise.fr', '$2y$10$i8gdvQsd4/7kv.pN5HuxfONDIF6XlH7n67IxHtP.rgSnpUqZdm0EK', 0, 0, '2020-06-19 15:51:35', '2020-06-19 16:44:32', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0);
 
 -- --------------------------------------------------------
@@ -3067,6 +3378,96 @@ ALTER TABLE `stage_session`
   ADD KEY `client_id_guest` (`client_id`,`guest`);
 
 --
+-- Index pour la table `stage_stage_candidatures`
+--
+ALTER TABLE `stage_stage_candidatures`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_etudiant` (`etudiants_id`),
+  ADD KEY `etat_candid_id` (`etat_candidatures_id`),
+  ADD KEY `id_offre` (`offres_id`);
+
+--
+-- Index pour la table `stage_stage_classes`
+--
+ALTER TABLE `stage_stage_classes`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `stage_stage_classes_professeurs`
+--
+ALTER TABLE `stage_stage_classes_professeurs`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `classes_id` (`classes_id`),
+  ADD KEY `professeurs_id` (`professeurs_id`);
+
+--
+-- Index pour la table `stage_stage_dir_techniques`
+--
+ALTER TABLE `stage_stage_dir_techniques`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `stage_stage_documents`
+--
+ALTER TABLE `stage_stage_documents`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_stagiaire` (`stagiaires_id`);
+
+--
+-- Index pour la table `stage_stage_etat_candidatures`
+--
+ALTER TABLE `stage_stage_etat_candidatures`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `stage_stage_etat_offres`
+--
+ALTER TABLE `stage_stage_etat_offres`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `stage_stage_etudiants`
+--
+ALTER TABLE `stage_stage_etudiants`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_classe` (`classes_id`);
+
+--
+-- Index pour la table `stage_stage_offres`
+--
+ALTER TABLE `stage_stage_offres`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `utilisateurs_id` (`utilisateurs_id`),
+  ADD KEY `etat_offres_id` (`etat_offres_id`);
+
+--
+-- Index pour la table `stage_stage_organisations`
+--
+ALTER TABLE `stage_stage_organisations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `stage_stage_professeurs`
+--
+ALTER TABLE `stage_stage_professeurs`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `stage_stage_stagiaires`
+--
+ALTER TABLE `stage_stage_stagiaires`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_candidature` (`id_candidature`),
+  ADD KEY `id_etudiant` (`id_etudiant`);
+
+--
+-- Index pour la table `stage_stage_tuteurs`
+--
+ALTER TABLE `stage_stage_tuteurs`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_organisation` (`id_organisation`);
+
+--
 -- Index pour la table `stage_stage_utilisateurs`
 --
 ALTER TABLE `stage_stage_utilisateurs`
@@ -3210,7 +3611,7 @@ ALTER TABLE `stage_viewlevels`
 -- AUTO_INCREMENT pour la table `stage_action_logs`
 --
 ALTER TABLE `stage_action_logs`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=94;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
 
 --
 -- AUTO_INCREMENT pour la table `stage_action_logs_extensions`
@@ -3411,10 +3812,88 @@ ALTER TABLE `stage_redirect_links`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT pour la table `stage_stage_candidatures`
+--
+ALTER TABLE `stage_stage_candidatures`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_classes`
+--
+ALTER TABLE `stage_stage_classes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_classes_professeurs`
+--
+ALTER TABLE `stage_stage_classes_professeurs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_dir_techniques`
+--
+ALTER TABLE `stage_stage_dir_techniques`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_documents`
+--
+ALTER TABLE `stage_stage_documents`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_etat_candidatures`
+--
+ALTER TABLE `stage_stage_etat_candidatures`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_etat_offres`
+--
+ALTER TABLE `stage_stage_etat_offres`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_etudiants`
+--
+ALTER TABLE `stage_stage_etudiants`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_offres`
+--
+ALTER TABLE `stage_stage_offres`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_organisations`
+--
+ALTER TABLE `stage_stage_organisations`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_professeurs`
+--
+ALTER TABLE `stage_stage_professeurs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_stagiaires`
+--
+ALTER TABLE `stage_stage_stagiaires`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT pour la table `stage_stage_tuteurs`
+--
+ALTER TABLE `stage_stage_tuteurs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
 -- AUTO_INCREMENT pour la table `stage_stage_utilisateurs`
 --
 ALTER TABLE `stage_stage_utilisateurs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT pour la table `stage_tags`
@@ -3499,6 +3978,13 @@ ALTER TABLE `stage_annuaire_contacts`
 --
 ALTER TABLE `stage_annuaire_entreprises`
   ADD CONSTRAINT `fk_stage_annuaire_pays_id` FOREIGN KEY (`pays_id`) REFERENCES `stage_annuaire_pays` (`id`);
+
+--
+-- Contraintes pour la table `stage_stage_classes_professeurs`
+--
+ALTER TABLE `stage_stage_classes_professeurs`
+  ADD CONSTRAINT `stage_stage_classes_professeurs_ibfk_1` FOREIGN KEY (`classes_id`) REFERENCES `stage_stage_classes` (`id`),
+  ADD CONSTRAINT `stage_stage_classes_professeurs_ibfk_2` FOREIGN KEY (`professeurs_id`) REFERENCES `stage_stage_professeurs` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
