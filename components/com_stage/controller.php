@@ -8,6 +8,9 @@ class StageController extends JControllerLegacy
 		// affectation de la vue récupérée en paramètre
 		$vName = $this->input->get('view', 'utilisateurs');
 		$this->input->set('view', $vName);
+
+		$vName = $this->input->get('view', 'offres');
+		$this->input->set('view', $vName);
 		
 		parent::display($cachable, false);
 		return $this;

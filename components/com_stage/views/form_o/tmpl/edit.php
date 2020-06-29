@@ -7,7 +7,7 @@ JHtml::_('behavior.formvalidation');
 JHtml::_('formbehavior.chosen', 'select');
 
 $user = JFactory::getUser();               		// gets current user object
-$isAdmin = (in_array('11', $user->groups));		// sets flag when user group is '11' that is 'ABDC Administrateur 
+$isAdmin = (in_array('12', $user->groups));		// sets flag when user group is '12' that is 'ABDC Administrateur 
 ?>
 
 <?php if (!$isAdmin) : ?>
@@ -19,7 +19,7 @@ $isAdmin = (in_array('11', $user->groups));		// sets flag when user group is '11
 		Joomla.submitbutton = function(task)
 		{
 			// si bouton 'Annuler' ou si les champs du formulaire sont valides alors on envoie le formulaire
-			if (task == 'utilisateur.cancel' || document.formvalidator.isValid(document.getElementById('adminForm')))
+			if (task == 'offre.cancel' || document.formvalidator.isValid(document.getElementById('adminForm')))
 			{
 				Joomla.submitform(task);
 			}
@@ -32,16 +32,16 @@ $isAdmin = (in_array('11', $user->groups));		// sets flag when user group is '11
 			<div class="form-inline form-inline-header">
 				<div class="btn-group pull-left">
 					<?php $isNew = ($this->item->id == 0); ?>
-					<h2><?php echo JText::_('COM_STAGE_UTILISATEUR')." ".($isNew ? JText::_('COM_STAGE_ADD_PAR'): JText::_('COM_STAGE_MODIF_PAR')); ?></h2>
+					<h2><?php echo JText::_('COM_STAGE_OFFRE')." ".($isNew ? JText::_('COM_STAGE_ADD_PAR'): JText::_('COM_STAGE_MODIF_PAR')); ?></h2>
 				</div>
 				<div class="btn-toolbar">
 					<div class="btn-group pull-right">
-						<button type="button" class="btn" onclick="Joomla.submitbutton('utilisateur.cancel')">
+						<button type="button" class="btn" onclick="Joomla.submitbutton('offre.cancel')">
 							<span class="icon-cancel"></span>
 						</button>
 					</div>
 					<div class="btn-group pull-right">
-						<button type="button" class="btn btn-primary validate" onclick="Joomla.submitbutton('utilisateur.save')">
+						<button type="button" class="btn btn-primary validate" onclick="Joomla.submitbutton('offre.save')">
 							<span class="icon-ok"></span>
 						</button>
 					</div>
@@ -51,27 +51,27 @@ $isAdmin = (in_array('11', $user->groups));		// sets flag when user group is '11
 
 			<fieldset>
 				<ul class="nav nav-tabs">
-					<li><a href="#utilisateur" data-toggle="tab"><?php echo JText::_('COM_STAGE_UTILISATEUR'); ?></a></li>
+					<li><a href="#offre" data-toggle="tab"><?php echo JText::_('COM_STAGE_OFFRE'); ?></a></li>
 					<li><a href="#avance" data-toggle="tab"><?php echo JText::_('COM_STAGE_ADVANCED'); ?></a></li>
 				</ul>
 				<div class="tab-content">
-					<div class="tab-pane active" id="utilisateur">
+					<div class="tab-pane active" id="offre">
 						<table class="table">
 							<tbody>
 								<tr>
 									<td width="20%" class="nowrap right">
-										<div class="control-label"><?php echo $this->form->getLabel('nom'); ?></div>
+										<div class="control-label"><?php echo $this->form->getLabel('titre'); ?></div>
 									</td>
 									<td width="80%">
-										<div class="controls"><?php echo $this->form->getInput('nom'); ?></div>
+										<div class="controls"><?php echo $this->form->getInput('titre'); ?></div>
 									</td>
 								</tr>
 								<tr>
 									<td width="20%" class="nowrap right">
-										<div class="control-label"><?php echo $this->form->getLabel('prenom'); ?></div>
+										<div class="control-label"><?php echo $this->form->getLabel('description'); ?></div>
 									</td>
 									<td width="80%">
-										<div class="controls"><?php echo $this->form->getInput('prenom'); ?></div>
+										<div class="controls"><?php echo $this->form->getInput('description'); ?></div>
 									</td>
 								</tr>
 							</tbody>
@@ -83,10 +83,18 @@ $isAdmin = (in_array('11', $user->groups));		// sets flag when user group is '11
 							<tbody>
 								<tr>
 									<td width="20%" class="nowrap right">
-										<div class="control-label"><?php echo $this->form->getLabel('email'); ?></div>
+										<div class="control-label"><?php echo $this->form->getLabel('date_debut'); ?></div>
 									</td>
 									<td width="80%">
-										<div class="controls"><?php echo $this->form->getInput('email'); ?></div>
+										<div class="controls"><?php echo $this->form->getInput('date_debut'); ?></div>
+									</td>
+								</tr>
+								<tr>
+									<td width="20%" class="nowrap right">
+										<div class="control-label"><?php echo $this->form->getLabel('date_fin'); ?></div>
+									</td>
+									<td width="80%">
+										<div class="controls"><?php echo $this->form->getInput('date_fin'); ?></div>
 									</td>
 								</tr>
 							</tbody>

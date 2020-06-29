@@ -4,7 +4,7 @@ defined('_JEXEC') or die;
 class StageControllerOffre extends JControllerForm
 {
 	// précise la vue (formulaire de saisie) à afficher
-	protected $view_item = 'form_u';
+	protected $view_item = 'form_o';
 	
 	// précise la variable d'édition URL
 	protected $urlVar = 'b.id';
@@ -59,7 +59,7 @@ class StageControllerOffre extends JControllerForm
 		return JURI::base()."/index.php?option=com_stage&view=offres";		
 	}
 
-	public function getModel($name = 'form_u', $prefix = '', $config = array('ignore_request' => true))
+	public function getModel($name = 'form_o', $prefix = '', $config = array('ignore_request' => true))
 	{
 		$model = parent::getModel($name, $prefix, $config);
 		return $model;

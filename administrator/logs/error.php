@@ -10,3 +10,4 @@
 2020-06-27T17:10:16+00:00	INFO ::1	joomlacanceled	
 2020-06-27T17:10:24+00:00	INFO ::1	joomlafailure	Le mot de passe ne correspond pas au nom d'utilisateur, ou vous n'avez pas encore de compte.
 2020-06-29T09:04:20+00:00	INFO ::1	joomlacanceled	
+2020-06-29T17:48:11+00:00	INFO ::1	joomlacanceled	

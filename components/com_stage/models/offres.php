@@ -11,14 +11,12 @@ class StageModelOffres extends JModelList
 		if (empty($config['filter_fields']))
 		{
 			$config['filter_fields'] = array(
-				'id', 'd.id',
-				'titre', 'd.titre',
-				'description', 'd.description',
-				'typecontact', 'd.contact_id',
-				'etat_offre', 'd.entreprise_id',
-				'published', 'd.published',
-				'hits', 'd.hits',
-				'modified', 'd.modified'
+				'id', 'r.id',
+				'titre', 'r.titre',
+				'description', 'r.description',
+				'published', 'r.published',
+				'hits', 'r.hits',
+				'modified', 'r.modified'
 			);
 		}
 		parent::__construct($config);
@@ -52,34 +50,34 @@ class StageModelOffres extends JModelList
 	{
 		// construit la requête d'affichage de la liste
 		$query	= $this->_db->getQuery(true);
-		$query->select('d.id, d.titre, d.description, d.published, d.hits, d.modified');
-		$query->from('#__stage_offres d');
+		$query->select('r.id, r.titre, r.description, r.published, r.hits, r.modified');
+		$query->from('#__stage_offres r');
 
 
 		// joint la table etat offre
-		$query->select('d.etat AS etat')->join('LEFT', '#__stage_etat_offres AS d ON b.etat_offres_id=d.id');	
+		$query->select('r.etat AS etat')->join('LEFT', '#__stage_etat_offres AS r ON b.etat_offres_id=r.id');	
 		
 		// filtre de recherche rapide textuelle
 		$search = $this->getState('filter.search');
 		if (!empty($search)) {
 			// recherche prefixée par 'id:'
 			if (stripos($search, 'id:') === 0) {
-				$query->where('d.id = '.(int) substr($search, 3));
+				$query->where('r.id = '.(int) substr($search, 3));
 			}
 			else {
 				// recherche textuelle classique (sans préfixe)
 				$search = $this->_db->Quote('%'.$this->_db->escape($search, true).'%');
 				// Compile les clauses de recherche
 				$searches	= array();
-				$searches[]	= 'd.titre LIKE '.$search;
-				$searches[]	= 'd.description LIKE '.$search;
+				$searches[]	= 'r.titre LIKE '.$search;
+				$searches[]	= 'r.description LIKE '.$search;
 					// Ajoute les clauses à la requête
 				$query->where('('.implode(' OR ', $searches).')');
 			}
 		}
 		
 		// filtre les éléments publiés
-		$query->where('d.published=1');
+		$query->where('r.published=1');
 		
 		// tri des colonnes
 		$orderCol = $this->getState('list.ordering', 'titre');

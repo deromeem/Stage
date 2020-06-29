@@ -19,8 +19,12 @@
 			description="COM_STAGE_OFFRES_DESCRIPTION"
 			size="40" class="inputbox" default="" required="true"
 		/>
-		<field name="email" type="text" label="COM_STAGE_OFFRES_EMAIL"
-			description="COM_STAGE_OFFRES_EMAIL"
+		<field name="date debut" type="text" label="COM_STAGE_OFFRES_DATE_DEBUT"
+			description="COM_STAGE_OFFRES_DATE_DEBUT"
+			size="40" class="inputbox" default="" required="false"
+		/>
+        <field name="date fin" type="text" label="COM_STAGE_OFFRES_DATE_FIN"
+			description="COM_STAGE_OFFRES_DATE_FIN"
 			size="40" class="inputbox" default="" required="false"
 		/>
 		<field id="published" name="published" type="list"

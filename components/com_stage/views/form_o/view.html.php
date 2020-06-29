@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die;
 
-class StageViewForm_u extends JViewLegacy
+class StageViewForm_o extends JViewLegacy
 {
 	protected $form;
 	protected $item;

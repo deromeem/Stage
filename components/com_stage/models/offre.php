@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die('Restricted access');
  
-class StageModelUtilisateur extends JModelItem
+class StageModelOffre extends JModelItem
 {
 	protected $_item = null;
 	protected $_context = 'com_stage.offre';
@@ -25,14 +25,14 @@ class StageModelUtilisateur extends JModelItem
 		if (!isset($this->_item[$pk])) {
 			$db = $this->getDbo();
 			$query = $db->getQuery(true);
-			$query->select('d.id, d.nom, d.prenom, d.email');
-			$query->from('#__stage_utilisateurs AS d');
+			$query->select('r.id, r.titre, r.description');
+			$query->from('#__stage_offres AS r');
 
 
 			// joint la table entreprises
-			$query->select('d.etat AS etat')->join('LEFT', '#__stage_etat_offres AS d ON b.etat_offres_id=d.id');		
+			$query->select('r.etat AS etat')->join('LEFT', '#__stage_etat_offres AS r ON b.etat_offres_id=r.id');		
 					
-			$query->where('d.id = ' . (int) $pk);
+			$query->where('r.id = ' . (int) $pk);
 			$db->setQuery($query);
 			$data = $db->loadObject();
 			$this->_item[$pk] = $data;
