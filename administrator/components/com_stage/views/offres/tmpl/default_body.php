@@ -16,10 +16,6 @@ if ($saveOrder)
 	<tr class="row<?php echo $i % 2; ?>">
 		<td class="hidden-phone">
 			<?php echo JHtml::_('grid.id', $i, $item->id); ?>
-		</td>
-		<td class="hidden-phone">
-			<?php echo $item->civilite; ?>
-		</td>
 		<td class="wrap has-context">
 			<div class="pull-left">
 				<a href="<?php echo JRoute::_('index.php?option=com_stage&task=offre.edit&id='.(int) $item->id); ?>">
