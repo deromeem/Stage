@@ -10,5 +10,16 @@ class UtilisateurHelper extends JHelperContent
 			'index.php?option=com_stage&view=utilisateurs',
 			$vName == 'utilisateurs'
 		);
+		JHtmlSidebar::addEntry(
+			JText::_('Offres'),
+			'index.php?option=com_stage&view=offres',
+			$vName == 'offres'
+		);
+		JHtmlSidebar::addEntry(
+			JText::_('Candidatures'),
+			'index.php?option=com_stage&view=candidatures',
+			$vName == 'candidatures'
+		);
 	}
+	
 }
