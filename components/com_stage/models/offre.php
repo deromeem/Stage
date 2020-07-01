@@ -30,7 +30,7 @@ class StageModelOffre extends JModelItem
 
 
 			// joint la table entreprises
-			$query->select('r.etat AS etat')->join('LEFT', '#__stage_etat_offres AS r ON b.etat_offres_id=r.id');		
+			$query->select('e.etat AS etat')->join('LEFT', '#__stage_etat_offres AS e ON r.etat_offres_id=e.id');		
 					
 			$query->where('r.id = ' . (int) $pk);
 			$db->setQuery($query);

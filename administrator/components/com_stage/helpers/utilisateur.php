@@ -20,6 +20,11 @@ class UtilisateurHelper extends JHelperContent
 			'index.php?option=com_stage&view=candidatures',
 			$vName == 'candidatures'
 		);
+		JHtmlSidebar::addEntry(
+			JText::_('Organisations'),
+			'index.php?option=com_stage&view=organisations',
+			$vName == 'organisations'
+		);
 	}
 	
 }

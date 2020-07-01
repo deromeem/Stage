@@ -55,7 +55,7 @@ class StageModelOffres extends JModelList
 
 
 		// joint la table etat offre
-		$query->select('r.etat AS etat')->join('LEFT', '#__stage_etat_offres AS r ON b.etat_offres_id=r.id');	
+		$query->select('e.etat AS etat')->join('LEFT', '#__stage_etat_offres AS e ON r.etat_offres_id=e.id');	
 		
 		// filtre de recherche rapide textuelle
 		$search = $this->getState('filter.search');
