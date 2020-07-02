@@ -1,16 +1,16 @@
 <?php
 defined('_JEXEC') or die('Restricted access');
 
-class StageModelEtatCandidature extends JModelAdmin
+class StageModelOrganisation extends JModelAdmin
 {
 	protected $_compo = 'com_stage';
-	protected $_context = 'canidature';
-	public $typeAlias = 'com_stage.etatcandidature';
+	protected $_context = 'organisation';
+	public $typeAlias = 'com_stage.organisation';
 	
 	// Surcharges des méthodes de la classe mère pour :
 	
 	// 1) définir la table de soutien à utiliser
-	public function getTable($type = 'EtatCandidature', $prefix = 'StageTable', $config = array()) 
+	public function getTable($type = 'Organisation', $prefix = 'StageTable', $config = array()) 
 	{
 		return JTable::getInstance($type, $prefix, $config);
 	}
@@ -27,7 +27,7 @@ class StageModelEtatCandidature extends JModelAdmin
 		
 		$jinput = JFactory::getApplication()->input;
 
-		// le frontend appelle ce modèle et utilise a_id (initialisé à 0 by par défaut) pour éviter la collision avec id
+		// le frontend appelle ce modèle et utilise c_id (initialisé à 0 by par défaut) pour éviter la collision avec id
 		if ($jinput->get('c_id'))
 		{
 			$id = $jinput->get('c_id', 0);

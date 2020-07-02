@@ -2,7 +2,7 @@
 defined('_JEXEC') or die('Restricted access');
 
 $user = JFactory::getUser();               		// gets current user object
-$isAdmin = (in_array('12', $user->groups));		// sets flag when user group is '11' that is 'STAGE Administrateur 
+$isAdmin = (in_array('12', $user->groups));		// sets flag when user group is '12' that is 'STAGE Administrateur 
 ?>
 
 <?php if (!$isAdmin) : ?>
@@ -17,7 +17,7 @@ $isAdmin = (in_array('12', $user->groups));		// sets flag when user group is '11
 				<span class="icon-cancel"></span></a>
 		</div>	
 		<div class="btn-group pull-right">
-			<a href="<?php echo JRoute::_('index.php?option=com_stage&view=form_u&layout=edit&id='.$this->item->id); ?>" class="btn" role="button"><span class="icon-edit"></span></a>
+			<a href="<?php echo JRoute::_('index.php?option=com_stage&view=form_o&layout=edit&id='.$this->item->id); ?>" class="btn" role="button"><span class="icon-edit"></span></a>
 		</div>	
 	</div>
 	<div>
@@ -53,6 +53,22 @@ $isAdmin = (in_array('12', $user->groups));		// sets flag when user group is '11
 					</td>
 					<td width="80%">
 						<?php echo $this->item->date_fin ?>
+					</td>
+				</tr>
+				<tr>
+					<td width="20%" class="nowrap right">
+						<span class="label"><?php echo JText::_('COM_STAGE_OFFRES_ETAT_OFFRE'); ?></span>
+					</td>
+					<td width="80%">
+						<?php echo $this->item->etat ?>
+					</td>
+				</tr>
+				<tr>
+					<td width="20%" class="nowrap right">
+						<span class="label"><?php echo JText::_('COM_STAGE_OFFRES_UTILISATEUR'); ?></span>
+					</td>
+					<td width="80%">
+						<?php echo $this->item->utilisateur ?>
 					</td>
 				</tr>
 			</tbody>

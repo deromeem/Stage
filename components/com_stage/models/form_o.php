@@ -6,7 +6,7 @@ defined('_JEXEC') or die;
 // Base ce modèle sur celui du backend.
 require_once JPATH_COMPONENT_ADMINISTRATOR.'/models/offre.php';
 
-class StageModelForm_u extends StageModelOffre
+class StageModelForm_o extends StageModelOffre
 {
 	protected $_context = 'offre';
 

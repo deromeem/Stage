@@ -7,7 +7,7 @@ $listDirn	= $this->escape($this->state->get('list.direction'));
 $saveOrder	= $listOrder == 'ordering';
 if ($saveOrder)
 {
-	$saveOrderingUrl = 'index.php?option=com_stage&task=candidatures.saveOrderAjax&tmpl=component';
+	$saveOrderingUrl = 'index.php?option=com_stage&task=organisations.saveOrderAjax&tmpl=component';
 	JHtml::_('sortablelist.sortable', 'articleList', 'adminForm', strtolower($listDirn), $saveOrderingUrl);
 }
 ?>
@@ -19,16 +19,16 @@ if ($saveOrder)
 		</td>
 		<td class="wrap has-context">
 			<div class="pull-left">
-				<a href="<?php echo JRoute::_('index.php?option=com_stage&task=candidature.edit&id='.(int) $item->id); ?>">
-					<?php echo $this->escape($item->motivation); ?>
+				<a href="<?php echo JRoute::_('index.php?option=com_stage&task=organisation.edit&id='.(int) $item->id); ?>">
+					<?php echo $this->escape($item->nom); ?>
 				</a>
 			</div>
 		</td>
 		<td>
-			<?php echo $item->etat; ?>
+			<?php echo $item->activite; ?>
 		</td>
 		<td class="center hidden-phone">
-			<?php echo JHtml::_('jgrid.published', $item->published, $i, 'candidatures.', true); ?>
+			<?php echo JHtml::_('jgrid.published', $item->published, $i, 'organisations.', true); ?>
 		</td>
 		<td class="center hidden-tablet hidden-phone">
 			<?php echo JHtml::_('date', $item->modified, $this->paramDateFmt); ?>

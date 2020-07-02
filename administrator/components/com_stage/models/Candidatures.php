@@ -60,6 +60,8 @@ class StageModelCandidatures extends JModelList
 				// Compile les clauses de recherche
 				$searches	= array();
 				$searches[]	= 'c.motivation LIKE '.$search;
+				$searches[]	= 'c.url_cv LIKE '.$search;
+				$searches[]	= 'c.url_lettre LIKE '.$search;
 				// Ajoute les clauses à la requête
 				$query->where('('.implode(' OR ', $searches).')');
 			}
@@ -70,7 +72,7 @@ class StageModelCandidatures extends JModelList
 		$orderDirn = $this->state->get('list.direction', 'ASC');
 		$query->order($this->_db->escape($orderCol.' '.$orderDirn));
 
-	     // echo nl2br(str_replace('#__','stage_',$query));			// TEST/DEBUG
+	    // echo nl2br(str_replace('#__','stage_',$query));			// TEST/DEBUG
 		return $query;
 	}
 }

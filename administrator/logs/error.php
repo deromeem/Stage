@@ -13,4 +13,8 @@
 2020-06-27T17:10:24+00:00	INFO ::1	joomlafailure	Le mot de passe ne correspond pas au nom d'utilisateur, ou vous n'avez pas encore de compte.
 2020-06-29T09:04:20+00:00	INFO ::1	joomlacanceled	
 2020-06-29T17:48:11+00:00	INFO ::1	joomlacanceled	
+<<<<<<< HEAD
 >>>>>>> 0069969ceafeeb593f685c8b22e015df958f09c5
+=======
+2020-06-30T12:34:46+00:00	INFO ::1	joomlafailure	Le nom d'utilisateur ne correspond pas au mot de passe, ou vous n'avez pas encore de compte.
+>>>>>>> 2753f6300e8c7a8ef7a7bdbe66ad43061c167e7a

@@ -8,7 +8,7 @@ JHtml::_('formbehavior.chosen', 'select');
 <script type="text/javascript">
 	Joomla.submitbutton = function(task)
 	{
-		if (task == 'candidature.cancel' || document.formvalidator.isValid(document.id('stage-form')))
+		if (task == 'organisation.cancel' || document.formvalidator.isValid(document.id('stage-form')))
 		{
 			<?php //echo $this->form->getField('commentaire')->save(); ?>
 			Joomla.submitform(task, document.getElementById('stage-form'));
@@ -21,9 +21,13 @@ JHtml::_('formbehavior.chosen', 'select');
 
 	<div class="form-inline form-inline-header">
 		<div class="control-group">
-			<div class="control-label"><?php echo $this->form->getLabel('motivation'); ?></div>
-			<div class="controls"><?php echo $this->form->getInput('motivation'); ?></div>
-		</div>							
+			<div class="control-label"><?php echo $this->form->getLabel('nom'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('nom'); ?></div>
+		</div>					
+		<div class="control-group">
+			<div class="control-label"><?php echo $this->form->getLabel('activite'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('activite'); ?></div>
+		</div>		
 		<div class="control-group">
 			<div class="control-label"><?php echo $this->form->getLabel('alias'); ?></div>
 			<div class="controls"><?php echo $this->form->getInput('alias'); ?></div>
@@ -33,32 +37,22 @@ JHtml::_('formbehavior.chosen', 'select');
 	<div class="form-horizontal">
 		<?php echo JHtml::_('bootstrap.startTabSet', 'myTab', array('active' => 'infos')); ?>
 
-		<?php echo JHtml::_('bootstrap.addTab', 'myTab', 'details', JText::_('Information')); ?>
-		<div class="control-group">
-			<div class="control-label"><?php echo $this->form->getLabel('etat_candidatures_id'); ?></div>
-			<div class="controls"><?php echo $this->form->getInput('etat_candidatures_id'); ?></div>
-		</div>	
-		<div class="control-group">
-			<div class="control-label"><?php echo $this->form->getLabel('offres_id'); ?></div>
-			<div class="controls"><?php echo $this->form->getInput('offres_id'); ?></div>
-		</div>
-		<div class="control-group">
-			<div class="control-label"><?php echo $this->form->getLabel('etudiants_id'); ?></div>
-			<div class="controls"><?php echo $this->form->getInput('etudiants_id'); ?></div>
-		</div>
-		<?php echo JHtml::_('bootstrap.endTab'); ?>
-
 		<?php echo JHtml::_('bootstrap.addTab', 'myTab', 'infos', JText::_('COM_STAGE_ADVANCED')); ?>
 		<div class="control-group">
-			<div class="control-label"><?php echo $this->form->getLabel('url_cv'); ?></div>
-			<div class="controls"><?php echo $this->form->getInput('url_cv'); ?></div>
+			<div class="control-label"><?php echo $this->form->getLabel('adresse rue'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('adresse rue'); ?></div>
 		</div>	
 		<div class="control-group">
-			<div class="control-label"><?php echo $this->form->getLabel('url_lettre'); ?></div>
-			<div class="controls"><?php echo $this->form->getInput('url_lettre'); ?></div>
+			<div class="control-label"><?php echo $this->form->getLabel('code postal'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('code postal'); ?></div>
 		</div>
-		<?php echo JHtml::_('bootstrap.endTab'); ?>
-
+		<div class="control-group">
+			<div class="control-label"><?php echo $this->form->getLabel('ville'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('ville'); ?></div>
+		</div>			
+	</div>		
+		
+		
 		<?php echo JHtml::_('bootstrap.addTab', 'myTab', 'publishing', JText::_('JGLOBAL_FIELDSET_PUBLISHING', true)); ?>
 		<div class="row-fluid form-horizontal-desktop">
 			<div class="span6">
@@ -76,8 +70,8 @@ JHtml::_('formbehavior.chosen', 'select');
 
 		<?php echo JLayoutHelper::render('joomla.edit.params', $this); ?>
 
-		<?php echo JHtml::_('bootstrap.endTabSet'); ?>	
-	</div>		
+		<?php echo JHtml::_('bootstrap.endTabSet'); ?>
+	</div>
 	<input type="hidden" name="task" value="" />
 	<?php echo JHtml::_('form.token'); ?>
 		

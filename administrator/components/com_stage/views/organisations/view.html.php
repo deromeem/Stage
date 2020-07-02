@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die('Restricted access');
  
-class StageViewCandidatures extends JViewLegacy
+class StageViewOrganisations extends JViewLegacy
 {
 	function display($tpl = null) 
 	{
@@ -31,7 +31,7 @@ class StageViewCandidatures extends JViewLegacy
 		// ajoute la toolbar contenant les boutons d'actions
 		$this->addToolBar();
 		// invoque la méthode addSubmenu du fichier de soutien (helper)
-		utilisateurHelper::addSubmenu('Candidatures');
+		UtilisateurHelper::addSubmenu('Organisations');
 		// prépare et affiche la sidebar à gauche de la liste
 		$this->prepareSideBar();
 		$this->sidebar = JHtmlSidebar::render();
@@ -43,17 +43,17 @@ class StageViewCandidatures extends JViewLegacy
 	protected function addToolBar() 
 	{
 		// affiche le titre de la page
-		JToolBarHelper::title(JText::_('COM_STAGE_OPTIONS')." : ".JText::_('COM_STAGE_CANDIDATURES'));
+		JToolBarHelper::title(JText::_('COM_STAGE_OPTIONS')." : ".JText::_('COM_STAGE_ORGANISATIONS'));
 		
 		// affiche les boutons d'action
-		JToolBarHelper::addNew('candidature.add');
-		JToolBarHelper::editList('candidature.edit');
-		JToolBarHelper::deleteList('Etes vous sur ?', 'candidatures.delete');		
-		JToolbarHelper::publish('candidatures.publish', 'JTOOLBAR_PUBLISH', true);
-		JToolbarHelper::unpublish('candidatures.unpublish', 'JTOOLBAR_UNPUBLISH', true);
-		JToolbarHelper::archiveList('candidatures.archive');
-		JToolbarHelper::checkin('candidatures.checkin');
-		JToolbarHelper::trash('candidatures.trash');
+		JToolBarHelper::addNew('organisation.add');
+		JToolBarHelper::editList('organisation.edit');
+		JToolBarHelper::deleteList('Etes vous sur ?', 'organisations.delete');		
+		JToolbarHelper::publish('organisations.publish', 'JTOOLBAR_PUBLISH', true);
+		JToolbarHelper::unpublish('organisations.unpublish', 'JTOOLBAR_UNPUBLISH', true);
+		JToolbarHelper::archiveList('organisations.archive');
+		JToolbarHelper::checkin('organisations.checkin');
+		JToolbarHelper::trash('organisations.trash');
 		JToolbarHelper::preferences('COM_STAGE_');
 	}
 
@@ -73,10 +73,9 @@ class StageViewCandidatures extends JViewLegacy
 	{
 		// prépare l'affichage des colonnes de tri du calque
 		return array(
-			'c.motivation' => JText::_('Motivation'),
-			'c.url_cv' => JText::_('Url_cv'),
-			'c.lettre' => JText::_('Url_lettre'),
-			'c.id' => "Id"
+			'orga.nom' => JText::_('COM_STAGE_ORGANISATIONS_NOM'),
+			'orga.activite' => JText::_('COM_STAGE_ORGANISATIONS_ACTIVITE'),
+			'orga.id' => "Id"
 		);
 	}  
 	

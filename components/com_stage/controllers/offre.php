@@ -7,7 +7,7 @@ class StageControllerOffre extends JControllerForm
 	protected $view_item = 'form_o';
 	
 	// précise la variable d'édition URL
-	protected $urlVar = 'b.id';
+	protected $urlVar = 'a.id';
 	
 	public function add()
 	{
@@ -18,7 +18,7 @@ class StageControllerOffre extends JControllerForm
 		}
 	}
 
-	public function edit($key = null, $urlVar = 'b_id')
+	public function edit($key = null, $urlVar = 'a_id')
 	{
 		$result = parent::edit($key, $urlVar);
 		if (!$result)
@@ -28,7 +28,7 @@ class StageControllerOffre extends JControllerForm
 		return $result;
 	}
 
-	public function save($key = null, $urlVar = 'b_id')
+	public function save($key = null, $urlVar = 'a_id')
 	{
 		$result = parent::save($key, $urlVar);
 		if ($result)
@@ -38,7 +38,7 @@ class StageControllerOffre extends JControllerForm
 		return $result;
 	}
 
-	public function cancel($key = 'b_id')
+	public function cancel($key = 'a_id')
 	{
 		parent::cancel($key);
 		$this->setRedirect($this->getReturnPage());

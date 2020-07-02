@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  jeu. 25 juin 2020 à 16:15
+-- Généré le :  jeu. 02 juil. 2020 à 12:50
 -- Version du serveur :  10.3.15-MariaDB
 -- Version de PHP :  7.3.6
 
@@ -150,7 +150,34 @@ INSERT INTO `stage_action_logs` (`id`, `message_language_key`, `message`, `log_d
 (104, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 08:31:58', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
 (105, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 09:09:47', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
 (106, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 09:28:47', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
-(107, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 10:52:03', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED');
+(107, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-25 10:52:03', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(108, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-30 08:17:57', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(109, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 08:23:52', 'com_users', 134, 0, 'COM_ACTIONLOGS_DISABLED'),
+(110, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_OUT', '{\"action\":\"logout\",\"id\":\"134\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 09:44:38', 'com_users', 134, 134, 'COM_ACTIONLOGS_DISABLED'),
+(111, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 09:44:53', 'com_users', 134, 0, 'COM_ACTIONLOGS_DISABLED'),
+(112, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"133\",\"username\":\"sgaston\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=133\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 09:46:05', 'com_users', 133, 0, 'COM_ACTIONLOGS_DISABLED'),
+(113, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_OUT', '{\"action\":\"logout\",\"id\":\"133\",\"userid\":\"133\",\"username\":\"sgaston\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=133\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 09:46:10', 'com_users', 133, 133, 'COM_ACTIONLOGS_DISABLED'),
+(114, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 09:46:27', 'com_users', 134, 0, 'COM_ACTIONLOGS_DISABLED'),
+(115, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-30 09:47:00', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(116, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"133\",\"username\":\"sgaston\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=133\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 12:28:11', 'com_users', 133, 0, 'COM_ACTIONLOGS_DISABLED'),
+(117, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_OUT', '{\"action\":\"logout\",\"id\":\"133\",\"userid\":\"133\",\"username\":\"sgaston\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=133\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 12:28:16', 'com_users', 133, 133, 'COM_ACTIONLOGS_DISABLED'),
+(118, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 12:28:33', 'com_users', 134, 0, 'COM_ACTIONLOGS_DISABLED'),
+(119, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-30 12:31:03', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(120, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED', '{\"action\":\"add\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MENU\",\"id\":4,\"title\":\"Espace entreprise\",\"itemlink\":\"index.php?option=com_menus&task=menu.edit&id=4\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-30 12:33:50', 'com_menus.menu', 132, 4, 'COM_ACTIONLOGS_DISABLED'),
+(121, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED', '{\"action\":\"add\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MENU_ITEM\",\"id\":118,\"title\":\"Mes offres\",\"itemlink\":\"index.php?option=com_menus&task=item.edit&id=118\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-30 12:34:28', 'com_menus.item', 132, 118, 'COM_ACTIONLOGS_DISABLED'),
+(122, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_OUT', '{\"action\":\"logout\",\"id\":\"134\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 12:34:36', 'com_users', 134, 134, 'COM_ACTIONLOGS_DISABLED'),
+(123, 'PLG_ACTIONLOG_JOOMLA_USER_LOGIN_FAILED', '{\"action\":\"login\",\"id\":\"134\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 12:34:46', 'com_users', 134, 134, 'COM_ACTIONLOGS_DISABLED'),
+(124, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-06-30 12:35:00', 'com_users', 134, 0, 'COM_ACTIONLOGS_DISABLED'),
+(125, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED', '{\"action\":\"add\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MODULE\",\"id\":92,\"title\":\"Espace entreprise\",\"extension_name\":\"Espace entreprise\",\"itemlink\":\"index.php?option=com_modules&task=module.edit&id=92\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-30 12:36:04', 'com_modules.module', 132, 92, 'COM_ACTIONLOGS_DISABLED'),
+(126, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_ADDED', '{\"action\":\"add\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MENU_ITEM\",\"id\":119,\"title\":\"Cr\\u00e9er une offre\",\"itemlink\":\"index.php?option=com_menus&task=item.edit&id=119\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-30 12:37:14', 'com_menus.item', 132, 119, 'COM_ACTIONLOGS_DISABLED'),
+(127, 'PLG_SYSTEM_ACTIONLOGS_CONTENT_UPDATED', '{\"action\":\"update\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_MENU_ITEM\",\"id\":118,\"title\":\"Mes offres\",\"itemlink\":\"index.php?option=com_menus&task=item.edit&id=118\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\"}', '2020-06-30 12:37:35', 'com_menus.item', 132, 118, 'COM_ACTIONLOGS_DISABLED');
+INSERT INTO `stage_action_logs` (`id`, `message_language_key`, `message`, `log_date`, `extension`, `user_id`, `item_id`, `ip_address`) VALUES
+(128, 'PLG_ACTIONLOG_JOOMLA_USER_CHECKIN', '{\"action\":\"checkin\",\"type\":\"PLG_ACTIONLOG_JOOMLA_TYPE_USER\",\"id\":\"132\",\"title\":\"SLAM\",\"itemlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"table\":\"#__menu\"}', '2020-06-30 12:37:35', 'com_checkin', 132, 132, 'COM_ACTIONLOGS_DISABLED'),
+(129, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-06-30 13:42:29', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(130, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-07-02 09:05:00', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED'),
+(131, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-07-02 09:05:39', 'com_users', 134, 0, 'COM_ACTIONLOGS_DISABLED'),
+(132, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"134\",\"username\":\"mdupond\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=134\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_SITE\"}', '2020-07-02 10:16:35', 'com_users', 134, 0, 'COM_ACTIONLOGS_DISABLED'),
+(133, 'PLG_ACTIONLOG_JOOMLA_USER_LOGGED_IN', '{\"action\":\"login\",\"userid\":\"132\",\"username\":\"SLAM\",\"accountlink\":\"index.php?option=com_users&task=user.edit&id=132\",\"app\":\"PLG_ACTIONLOG_JOOMLA_APPLICATION_ADMINISTRATOR\"}', '2020-07-02 10:32:41', 'com_users', 132, 0, 'COM_ACTIONLOGS_DISABLED');
 
 -- --------------------------------------------------------
 
@@ -405,7 +432,7 @@ CREATE TABLE `stage_assets` (
 --
 
 INSERT INTO `stage_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `title`, `rules`) VALUES
-(1, 0, 0, 133, 0, 'root.1', 'Root Asset', '{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
+(1, 0, 0, 137, 0, 'root.1', 'Root Asset', '{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
 (2, 1, 1, 2, 1, 'com_admin', 'com_admin', '{}'),
 (3, 1, 3, 6, 1, 'com_banners', 'com_banners', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
 (4, 1, 7, 8, 1, 'com_cache', 'com_cache', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
@@ -420,58 +447,60 @@ INSERT INTO `stage_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `t
 (13, 1, 37, 38, 1, 'com_mailto', 'com_mailto', '{}'),
 (14, 1, 39, 40, 1, 'com_massmail', 'com_massmail', '{}'),
 (15, 1, 41, 42, 1, 'com_media', 'com_media', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.delete\":{\"5\":1}}'),
-(16, 1, 43, 50, 1, 'com_menus', 'com_menus', '{\"core.admin\":{\"7\":1}}'),
-(17, 1, 51, 52, 1, 'com_messages', 'com_messages', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
-(18, 1, 53, 94, 1, 'com_modules', 'com_modules', '{\"core.admin\":{\"7\":1}}'),
-(19, 1, 95, 98, 1, 'com_newsfeeds', 'com_newsfeeds', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(20, 1, 99, 100, 1, 'com_plugins', 'com_plugins', '{\"core.admin\":{\"7\":1}}'),
-(21, 1, 101, 102, 1, 'com_redirect', 'com_redirect', '{\"core.admin\":{\"7\":1}}'),
-(22, 1, 103, 104, 1, 'com_search', 'com_search', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(23, 1, 105, 106, 1, 'com_templates', 'com_templates', '{\"core.admin\":{\"7\":1}}'),
-(24, 1, 107, 110, 1, 'com_users', 'com_users', '{\"core.admin\":{\"7\":1}}'),
-(26, 1, 111, 112, 1, 'com_wrapper', 'com_wrapper', '{}'),
+(16, 1, 43, 52, 1, 'com_menus', 'com_menus', '{\"core.admin\":{\"7\":1}}'),
+(17, 1, 53, 54, 1, 'com_messages', 'com_messages', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
+(18, 1, 55, 98, 1, 'com_modules', 'com_modules', '{\"core.admin\":{\"7\":1}}'),
+(19, 1, 99, 102, 1, 'com_newsfeeds', 'com_newsfeeds', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(20, 1, 103, 104, 1, 'com_plugins', 'com_plugins', '{\"core.admin\":{\"7\":1}}'),
+(21, 1, 105, 106, 1, 'com_redirect', 'com_redirect', '{\"core.admin\":{\"7\":1}}'),
+(22, 1, 107, 108, 1, 'com_search', 'com_search', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(23, 1, 109, 110, 1, 'com_templates', 'com_templates', '{\"core.admin\":{\"7\":1}}'),
+(24, 1, 111, 114, 1, 'com_users', 'com_users', '{\"core.admin\":{\"7\":1}}'),
+(26, 1, 115, 116, 1, 'com_wrapper', 'com_wrapper', '{}'),
 (27, 8, 18, 27, 2, 'com_content.category.2', 'Non catégorisé', '{}'),
 (28, 3, 4, 5, 2, 'com_banners.category.3', 'Non catégorisé', '{}'),
 (29, 7, 14, 15, 2, 'com_contact.category.4', 'Non catégorisé', '{}'),
-(30, 19, 96, 97, 2, 'com_newsfeeds.category.5', 'Non catégorisé', '{}'),
-(32, 24, 108, 109, 2, 'com_users.category.7', 'Non catégorisé', '{}'),
-(33, 1, 113, 114, 1, 'com_finder', 'com_finder', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(34, 1, 115, 116, 1, 'com_joomlaupdate', 'com_joomlaupdate', '{}'),
-(35, 1, 117, 118, 1, 'com_tags', 'com_tags', '{}'),
-(36, 1, 119, 120, 1, 'com_contenthistory', 'com_contenthistory', '{}'),
-(37, 1, 121, 122, 1, 'com_ajax', 'com_ajax', '{}'),
-(38, 1, 123, 124, 1, 'com_postinstall', 'com_postinstall', '{}'),
-(39, 18, 54, 55, 2, 'com_modules.module.1', 'Menu principal', '{}'),
-(40, 18, 56, 57, 2, 'com_modules.module.2', 'Login', '{}'),
-(41, 18, 58, 59, 2, 'com_modules.module.3', 'Popular Articles', '{}'),
-(42, 18, 60, 61, 2, 'com_modules.module.4', 'Recently Added Articles', '{}'),
-(43, 18, 62, 63, 2, 'com_modules.module.8', 'Toolbar', '{}'),
-(44, 18, 64, 65, 2, 'com_modules.module.9', 'Quick Icons', '{}'),
-(45, 18, 66, 67, 2, 'com_modules.module.10', 'Logged-in Users', '{}'),
-(46, 18, 68, 69, 2, 'com_modules.module.12', 'Admin Menu', '{}'),
-(47, 18, 70, 71, 2, 'com_modules.module.13', 'Admin Submenu', '{}'),
-(48, 18, 72, 73, 2, 'com_modules.module.14', 'User Status', '{}'),
-(49, 18, 74, 75, 2, 'com_modules.module.15', 'Title', '{}'),
-(50, 18, 76, 77, 2, 'com_modules.module.16', 'Login Form', '{}'),
-(51, 18, 78, 79, 2, 'com_modules.module.17', 'Breadcrumbs', '{}'),
-(52, 18, 80, 81, 2, 'com_modules.module.79', 'Multilanguage status', '{}'),
-(53, 18, 82, 83, 2, 'com_modules.module.86', 'Joomla Version', '{}'),
+(30, 19, 100, 101, 2, 'com_newsfeeds.category.5', 'Non catégorisé', '{}'),
+(32, 24, 112, 113, 2, 'com_users.category.7', 'Non catégorisé', '{}'),
+(33, 1, 117, 118, 1, 'com_finder', 'com_finder', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(34, 1, 119, 120, 1, 'com_joomlaupdate', 'com_joomlaupdate', '{}'),
+(35, 1, 121, 122, 1, 'com_tags', 'com_tags', '{}'),
+(36, 1, 123, 124, 1, 'com_contenthistory', 'com_contenthistory', '{}'),
+(37, 1, 125, 126, 1, 'com_ajax', 'com_ajax', '{}'),
+(38, 1, 127, 128, 1, 'com_postinstall', 'com_postinstall', '{}'),
+(39, 18, 56, 57, 2, 'com_modules.module.1', 'Menu principal', '{}'),
+(40, 18, 58, 59, 2, 'com_modules.module.2', 'Login', '{}'),
+(41, 18, 60, 61, 2, 'com_modules.module.3', 'Popular Articles', '{}'),
+(42, 18, 62, 63, 2, 'com_modules.module.4', 'Recently Added Articles', '{}'),
+(43, 18, 64, 65, 2, 'com_modules.module.8', 'Toolbar', '{}'),
+(44, 18, 66, 67, 2, 'com_modules.module.9', 'Quick Icons', '{}'),
+(45, 18, 68, 69, 2, 'com_modules.module.10', 'Logged-in Users', '{}'),
+(46, 18, 70, 71, 2, 'com_modules.module.12', 'Admin Menu', '{}'),
+(47, 18, 72, 73, 2, 'com_modules.module.13', 'Admin Submenu', '{}'),
+(48, 18, 74, 75, 2, 'com_modules.module.14', 'User Status', '{}'),
+(49, 18, 76, 77, 2, 'com_modules.module.15', 'Title', '{}'),
+(50, 18, 78, 79, 2, 'com_modules.module.16', 'Login Form', '{}'),
+(51, 18, 80, 81, 2, 'com_modules.module.17', 'Breadcrumbs', '{}'),
+(52, 18, 82, 83, 2, 'com_modules.module.79', 'Multilanguage status', '{}'),
+(53, 18, 84, 85, 2, 'com_modules.module.86', 'Joomla Version', '{}'),
 (54, 16, 44, 45, 2, 'com_menus.menu.1', 'Main Menu', '{}'),
-(55, 18, 84, 85, 2, 'com_modules.module.87', 'Sample Data', '{}'),
-(56, 1, 125, 126, 1, 'com_privacy', 'com_privacy', '{}'),
-(57, 1, 127, 128, 1, 'com_actionlogs', 'com_actionlogs', '{}'),
-(58, 18, 86, 87, 2, 'com_modules.module.88', 'Latest Actions', '{}'),
-(59, 18, 88, 89, 2, 'com_modules.module.89', 'Privacy Dashboard', '{}'),
+(55, 18, 86, 87, 2, 'com_modules.module.87', 'Sample Data', '{}'),
+(56, 1, 129, 130, 1, 'com_privacy', 'com_privacy', '{}'),
+(57, 1, 131, 132, 1, 'com_actionlogs', 'com_actionlogs', '{}'),
+(58, 18, 88, 89, 2, 'com_modules.module.88', 'Latest Actions', '{}'),
+(59, 18, 90, 91, 2, 'com_modules.module.89', 'Privacy Dashboard', '{}'),
 (60, 27, 19, 20, 3, 'com_content.article.1', 'Accueil', '{}'),
 (61, 27, 21, 22, 3, 'com_content.article.2', 'Stages', '{}'),
 (62, 27, 23, 24, 3, 'com_content.article.3', 'BTS-SIO', '{}'),
 (63, 27, 25, 26, 3, 'com_content.article.4', 'Lycée Louis-Armand', '{}'),
-(64, 1, 129, 130, 1, 'com_annuaire', 'com_annuaire', '{\"core.delete\":{\"2\":1},\"core.edit\":{\"2\":1},\"core.create\":{\"2\":1},\"core.edit.state\":{\"2\":1},\"core.edit.own\":{\"2\":1}}'),
+(64, 1, 133, 134, 1, 'com_annuaire', 'com_annuaire', '{\"core.delete\":{\"2\":1},\"core.edit\":{\"2\":1},\"core.create\":{\"2\":1},\"core.edit.state\":{\"2\":1},\"core.edit.own\":{\"2\":1}}'),
 (65, 16, 46, 47, 2, 'com_menus.menu.2', 'Menu annuaire', '{}'),
-(66, 18, 90, 91, 2, 'com_modules.module.90', 'Annuaire', '{}'),
-(68, 1, 131, 132, 1, 'com_stage', 'com_stage', '{\"core.create\":{\"2\":1},\"core.delete\":{\"2\":1},\"core.edit\":{\"2\":1},\"core.edit.state\":{\"2\":1},\"core.edit.own\":{\"2\":1}}'),
+(66, 18, 92, 93, 2, 'com_modules.module.90', 'Annuaire', '{}'),
+(68, 1, 135, 136, 1, 'com_stage', 'com_stage', '{\"core.create\":{\"2\":1},\"core.delete\":{\"2\":1},\"core.edit\":{\"2\":1},\"core.edit.state\":{\"2\":1},\"core.edit.own\":{\"2\":1}}'),
 (69, 16, 48, 49, 2, 'com_menus.menu.3', 'Menu stage', '{}'),
-(70, 18, 92, 93, 2, 'com_modules.module.91', 'Administrateur', '{}');
+(70, 18, 94, 95, 2, 'com_modules.module.91', 'Administrateur', '{}'),
+(71, 16, 50, 51, 2, 'com_menus.menu.4', 'Espace entreprise', '{}'),
+(72, 18, 96, 97, 2, 'com_modules.module.92', 'Espace entreprise', '{}');
 
 -- --------------------------------------------------------
 
@@ -709,7 +738,7 @@ CREATE TABLE `stage_content` (
 --
 
 INSERT INTO `stage_content` (`id`, `asset_id`, `title`, `alias`, `introtext`, `fulltext`, `state`, `catid`, `created`, `created_by`, `created_by_alias`, `modified`, `modified_by`, `checked_out`, `checked_out_time`, `publish_up`, `publish_down`, `images`, `urls`, `attribs`, `version`, `ordering`, `metakey`, `metadesc`, `access`, `hits`, `metadata`, `featured`, `language`, `xreference`, `note`) VALUES
-(1, 60, 'Accueil', 'accueil', '<p><span style=\"font-size: 10pt;\">Bienvenue sur le site <strong>Stages BTS-SIO</strong> du lycée Louis-Armand (Paris 15e).</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:28:56', 132, '', '2020-06-19 15:28:56', 0, 0, '0000-00-00 00:00:00', '2020-06-19 15:28:56', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 1, 3, '', '', 1, 27, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
+(1, 60, 'Accueil', 'accueil', '<p><span style=\"font-size: 10pt;\">Bienvenue sur le site <strong>Stages BTS-SIO</strong> du lycée Louis-Armand (Paris 15e).</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:28:56', 132, '', '2020-06-19 15:28:56', 0, 0, '0000-00-00 00:00:00', '2020-06-19 15:28:56', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 1, 3, '', '', 1, 47, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
 (2, 61, 'Stages', 'stages', '<p><span style=\"font-size: 10pt;\">Tous les étudiants de BTS-SIO du lycée Louis-Armand doivent faire un stage en entreprise de 6 semaines chaque année.</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:37:06', 132, '', '2020-06-19 15:47:07', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:37:06', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 2, 2, '', '', 1, 4, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
 (3, 62, 'BTS-SIO', 'bts-sio', '<p><span style=\"font-size: 10pt;\">Le BTS-SIO, brevet de technicien supérieur Services informatiques aux organisations est un diplôme de technicien supérieur du secteur tertiaire de niveau 5 (<a href=\"https://www.enseignementsup-recherche.gouv.fr/cid72872/nomenclature-relative-au-niveau-de-diplome.html\">décret 2019-14 du 8 janvier 2019</a>).</span></p>\r\n<p><span style=\"font-size: 10pt;\">L’obtention du diplôme de BTS-SIO est conditionnée par deux années de formation et par 16 semaines de stage en entreprises.</span></p>\r\n<p><span style=\"font-size: 10pt;\">Le titulaire du diplôme participe à la production et à la fourniture de services informatiques à une organisation, soit en tant que collaborateur de cette organisation soit en tant qu’intervenant d’une entreprise de services du numérique, d’un éditeur de logiciels ou d’une société de conseil en technologies.</span></p>\r\n<p><span style=\"font-size: 10pt;\">Dans le cadre de ce référentiel, les activités à ce niveau de qualification débouchent sur deux domaines métiers distincts, auxquels correspondent les deux options du diplôme :</span></p>\r\n<ul>\r\n<li><span style=\"font-size: 10pt;\">Option A : solutions d’infrastructure, systèmes et réseaux (SISR).</span></li>\r\n<li><span style=\"font-size: 10pt;\">Option B : solutions logicielles et applications métiers (SLAM).</span></li>\r\n</ul>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:38:17', 132, '', '2020-06-19 15:44:22', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:38:17', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 2, 1, '', '', 1, 4, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', ''),
 (4, 63, 'Lycée Louis-Armand', 'lycee-la', '<p><span style=\"font-size: 10pt;\">Le Lycée Louis-Armand...</span></p>\r\n<p> </p>', '', 1, 2, '2020-06-19 15:41:25', 132, '', '2020-06-19 16:14:46', 132, 0, '0000-00-00 00:00:00', '2020-06-19 15:41:25', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 3, 0, '', '', 1, 8, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '', '');
@@ -964,7 +993,7 @@ INSERT INTO `stage_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (449, 0, 'plg_authentication_cookie', 'plugin', 'cookie', 'authentication', 0, 1, 1, 0, '{\"name\":\"plg_authentication_cookie\",\"type\":\"plugin\",\"creationDate\":\"July 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_AUTH_COOKIE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"cookie\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (450, 0, 'plg_twofactorauth_yubikey', 'plugin', 'yubikey', 'twofactorauth', 0, 0, 1, 0, '{\"name\":\"plg_twofactorauth_yubikey\",\"type\":\"plugin\",\"creationDate\":\"September 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.2.0\",\"description\":\"PLG_TWOFACTORAUTH_YUBIKEY_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"yubikey\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (451, 0, 'plg_search_tags', 'plugin', 'tags', 'search', 0, 1, 1, 0, '{\"name\":\"plg_search_tags\",\"type\":\"plugin\",\"creationDate\":\"March 2014\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_SEARCH_TAGS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"tags\"}', '{\"search_limit\":\"50\",\"show_tagged_items\":\"1\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1593091161}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1593680698}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (453, 0, 'plg_editors-xtd_module', 'plugin', 'module', 'editors-xtd', 0, 1, 1, 0, '{\"name\":\"plg_editors-xtd_module\",\"type\":\"plugin\",\"creationDate\":\"October 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_MODULE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"module\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (454, 0, 'plg_system_stats', 'plugin', 'stats', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_stats\",\"type\":\"plugin\",\"creationDate\":\"November 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_STATS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"stats\"}', '{\"mode\":3,\"lastrun\":1592577477,\"unique_id\":\"0337cccd2ff8e41e2ac4ef76d0a214e79e474e46\",\"interval\":12}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (455, 0, 'plg_installer_packageinstaller', 'plugin', 'packageinstaller', 'installer', 0, 1, 1, 1, '{\"name\":\"plg_installer_packageinstaller\",\"type\":\"plugin\",\"creationDate\":\"May 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.6.0\",\"description\":\"PLG_INSTALLER_PACKAGEINSTALLER_PLUGIN_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"packageinstaller\"}', '', '', '', 0, '0000-00-00 00:00:00', 1, 0),
@@ -1643,7 +1672,7 @@ CREATE TABLE `stage_menu` (
 --
 
 INSERT INTO `stage_menu` (`id`, `menutype`, `title`, `alias`, `note`, `path`, `link`, `type`, `published`, `parent_id`, `level`, `component_id`, `checked_out`, `checked_out_time`, `browserNav`, `access`, `img`, `template_style_id`, `params`, `lft`, `rgt`, `home`, `language`, `client_id`) VALUES
-(1, '', 'Menu_Item_Root', 'root', '', '', '', '', 1, 0, 0, 0, 0, '0000-00-00 00:00:00', 0, 0, '', 0, '', 0, 67, 0, '*', 0),
+(1, '', 'Menu_Item_Root', 'root', '', '', '', '', 1, 0, 0, 0, 0, '0000-00-00 00:00:00', 0, 0, '', 0, '', 0, 71, 0, '*', 0),
 (2, 'main', 'com_banners', 'Banners', '', 'Banners', 'index.php?option=com_banners', 'component', 1, 1, 1, 4, 0, '0000-00-00 00:00:00', 0, 0, 'class:banners', 0, '', 1, 10, 0, '*', 1),
 (3, 'main', 'com_banners', 'Banners', '', 'Banners/Banners', 'index.php?option=com_banners', 'component', 1, 2, 2, 4, 0, '0000-00-00 00:00:00', 0, 0, 'class:banners', 0, '', 2, 3, 0, '*', 1),
 (4, 'main', 'com_banners_categories', 'Categories', '', 'Banners/Categories', 'index.php?option=com_categories&extension=com_banners', 'component', 1, 2, 2, 6, 0, '0000-00-00 00:00:00', 0, 0, 'class:banners-cat', 0, '', 4, 5, 0, '*', 1),
@@ -1676,7 +1705,9 @@ INSERT INTO `stage_menu` (`id`, `menutype`, `title`, `alias`, `note`, `path`, `l
 (110, 'menu-annuaire', 'Contacts', 'contacts', '', 'contacts', 'index.php?option=com_annuaire&view=contacts', 'component', 1, 1, 1, 10000, 0, '0000-00-00 00:00:00', 0, 2, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 59, 60, 0, '*', 0),
 (115, 'main', 'com_stage', 'com-stage', '', 'com-stage', 'index.php?option=com_stage', 'component', 1, 1, 1, 10004, 0, '0000-00-00 00:00:00', 0, 1, 'class:component', 0, '{}', 61, 64, 0, '', 1),
 (116, 'main', 'com_stage_utilisateurs', 'com-stage-utilisateurs', '', 'com-stage/com-stage-utilisateurs', 'index.php?option=com_stage&view=utilisateurs', 'component', 1, 115, 2, 10004, 0, '0000-00-00 00:00:00', 0, 1, 'class:component', 0, '{}', 62, 63, 0, '', 1),
-(117, 'menu-stage', 'Utilisateurs', 'utilisateurs', '', 'utilisateurs', 'index.php?option=com_stage&view=utilisateurs', 'component', 1, 1, 1, 10004, 0, '0000-00-00 00:00:00', 0, 7, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 65, 66, 0, '*', 0);
+(117, 'menu-stage', 'Utilisateurs', 'utilisateurs', '', 'utilisateurs', 'index.php?option=com_stage&view=utilisateurs', 'component', 1, 1, 1, 10004, 0, '0000-00-00 00:00:00', 0, 7, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 65, 66, 0, '*', 0),
+(118, 'espace-entreprise', 'Mes offres', 'mes-offres', '', 'mes-offres', 'index.php?option=com_stage&view=offres', 'component', 1, 1, 1, 10004, 0, '0000-00-00 00:00:00', 0, 8, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 67, 68, 0, '*', 0),
+(119, 'espace-entreprise', 'Créer une offre', 'creer-une-offre', '', 'creer-une-offre', 'index.php?option=com_stage&view=form_o&layout=edit', 'component', 1, 1, 1, 10004, 0, '0000-00-00 00:00:00', 0, 8, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 69, 70, 0, '*', 0);
 
 -- --------------------------------------------------------
 
@@ -1700,7 +1731,8 @@ CREATE TABLE `stage_menu_types` (
 INSERT INTO `stage_menu_types` (`id`, `asset_id`, `menutype`, `title`, `description`, `client_id`) VALUES
 (1, 0, 'mainmenu', 'Menu principal', 'Le menu principal du site', 0),
 (2, 65, 'menu-annuaire', 'Menu annuaire', '', 0),
-(3, 69, 'menu-stage', 'Menu stage', '', 0);
+(3, 69, 'menu-stage', 'Menu stage', '', 0),
+(4, 71, 'espace-entreprise', 'Espace entreprise', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1783,7 +1815,8 @@ INSERT INTO `stage_modules` (`id`, `asset_id`, `title`, `note`, `content`, `orde
 (88, 58, 'Dernière actions', '', '', 0, 'cpanel', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_latestactions', 6, 1, '{}', 1, '*'),
 (89, 59, 'Privacy Dashboard', '', '', 0, 'cpanel', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_privacy_dashboard', 6, 1, '{}', 1, '*'),
 (90, 66, 'Annuaire', '', NULL, 1, 'position-7', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 2, 1, '{\"menutype\":\"menu-annuaire\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
-(91, 70, 'Administrateur', '', NULL, 1, 'position-7', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 7, 1, '{\"menutype\":\"menu-stage\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*');
+(91, 70, 'Administrateur', '', NULL, 1, 'position-7', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 7, 1, '{\"menutype\":\"menu-stage\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*'),
+(92, 72, 'Espace entreprise', '', NULL, 1, 'position-7', 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 1, 'mod_menu', 1, 1, '{\"menutype\":\"espace-entreprise\",\"base\":\"\",\"startLevel\":1,\"endLevel\":0,\"showAllChildren\":1,\"tag_id\":\"\",\"class_sfx\":\"\",\"window_open\":\"\",\"layout\":\"_:default\",\"moduleclass_sfx\":\"\",\"cache\":1,\"cache_time\":900,\"cachemode\":\"itemid\",\"module_tag\":\"div\",\"bootstrap_size\":\"0\",\"header_tag\":\"h3\",\"header_class\":\"\",\"style\":\"0\"}', 0, '*');
 
 -- --------------------------------------------------------
 
@@ -1822,7 +1855,8 @@ INSERT INTO `stage_modules_menu` (`moduleid`, `menuid`) VALUES
 (88, 0),
 (89, 0),
 (90, 0),
-(91, 0);
+(91, 0),
+(92, 0);
 
 -- --------------------------------------------------------
 
@@ -2005,10 +2039,9 @@ CREATE TABLE `stage_session` (
 --
 
 INSERT INTO `stage_session` (`session_id`, `client_id`, `guest`, `time`, `data`, `userid`, `username`) VALUES
-(0x356f34766762736f683463346230747437346f6170766d386b70, 1, 0, 1593082616, 'joomla|s:744:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo2O3M6NToidG9rZW4iO3M6MzI6IkVpV0FudERFbVlrZHZvS05mazdleVBreDBDVW5IejhrIjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1OTMwODIzMjM7czo0OiJsYXN0IjtpOjE1OTMwODI2MTE7czozOiJub3ciO2k6MTU5MzA4MjYxNjt9fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiIxMzIiO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 132, 'SLAM'),
-(0x6b70326c72716e6e306f6e61696a636664323331386d64646772, 1, 1, 1592922035, 'joomla|s:596:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aToxO3M6NToidG9rZW4iO3M6MzI6IjVqOE9XaG1CaXNITWJERkhQZW5MclBTa2dRdmw0NmhnIjt9czo4OiJyZWdpc3RyeSI7TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjA6e31zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtpOjA7fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 0, ''),
-(0x733276746267753838693970346e33303467356f6e6d3670356b, 1, 1, 1593077320, 'joomla|s:596:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aToxO3M6NToidG9rZW4iO3M6MzI6Ill5bDhlWmZrRzFYNG13REc4Mkk1blRUaHNmU1M4RVFLIjt9czo4OiJyZWdpc3RyeSI7TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjA6e31zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtpOjA7fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 0, ''),
-(0x736864393165703639626c673036376f66633037386b67676f38, 0, 0, 1593094521, 'joomla|s:1240:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo1MDtzOjU6InRva2VuIjtzOjMyOiJCWDAxMjhvZUEzQldOM3E5SXNKajZ1azBzMFBMM2h0USI7czo1OiJ0aW1lciI7Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJzdGFydCI7aToxNTkzMDY5MjAyO3M6NDoibGFzdCI7aToxNTkzMDkzNjgxO3M6Mzoibm93IjtpOjE1OTMwOTQ1MjE7fX1zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo1OiJ1c2VycyI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJsb2dpbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJmb3JtIjtPOjg6InN0ZENsYXNzIjoyOntzOjY6InJldHVybiI7czo3MToiaHR0cDovL2xvY2FsaG9zdC9zdGFnZS9pbmRleC5waHAvY29tcG9uZW50L3VzZXJzLz92aWV3PWxvZ2luJkl0ZW1pZD0xMDgiO3M6NDoiZGF0YSI7YTowOnt9fX19czo5OiJjb21fc3RhZ2UiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZWRpdCI7Tzo4OiJzdGRDbGFzcyI6MTp7czoxMToidXRpbGlzYXRldXIiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZGF0YSI7Tjt9fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiIxMzMiO31zOjExOiJhcHBsaWNhdGlvbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJxdWV1ZSI7YTowOnt9fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 133, 'sgaston');
+(0x396e6e656d6c64307361627332666e6664766434306239637335, 0, 0, 1593686277, 'joomla|s:1232:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTozNTtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1OTM2ODQ5ODI7czo0OiJsYXN0IjtpOjE1OTM2ODYyNzc7czozOiJub3ciO2k6MTU5MzY4NjI3Nzt9czo1OiJ0b2tlbiI7czozMjoiWDFoVWdJT0RCVG1wVm9xVTF5NVdYcVc1ODd3eE8zM1QiO31zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6Mjp7czo1OiJ1c2VycyI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJsb2dpbiI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJmb3JtIjtPOjg6InN0ZENsYXNzIjoyOntzOjQ6ImRhdGEiO2E6MDp7fXM6NjoicmV0dXJuIjtzOjcxOiJodHRwOi8vbG9jYWxob3N0L1N0YWdlL2luZGV4LnBocC9jb21wb25lbnQvdXNlcnMvP3ZpZXc9bG9naW4mSXRlbWlkPTEwOCI7fX19czo5OiJjb21fc3RhZ2UiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZWRpdCI7Tzo4OiJzdGRDbGFzcyI6MTp7czo1OiJvZmZyZSI7Tzo4OiJzdGRDbGFzcyI6MTp7czo0OiJkYXRhIjtOO319fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtzOjM6IjEzNCI7fXM6MTE6ImFwcGxpY2F0aW9uIjtPOjg6InN0ZENsYXNzIjoxOntzOjU6InF1ZXVlIjthOjA6e319fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO30=\";', 134, 'mdupond'),
+(0x6d34346b68656776376a616a76616b623633706b72386c386c72, 1, 1, 1593685959, 'joomla|s:596:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjI6e3M6NzoiY291bnRlciI7aToxO3M6NToidG9rZW4iO3M6MzI6IlFVN1ljNHhPZVAzekk3YXYwR2hwQkpQMzYyUXUyTlEwIjt9czo4OiJyZWdpc3RyeSI7TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjA6e31zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO31zOjQ6InVzZXIiO086MjA6Ikpvb21sYVxDTVNcVXNlclxVc2VyIjoxOntzOjI6ImlkIjtpOjA7fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 0, ''),
+(0x6f7339336335376e6c39393839676e6a75767475336d6837366f, 1, 0, 1593686590, 'joomla|s:932:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aToxOTtzOjU6InRva2VuIjtzOjMyOiJGZTRmNWQzUEtzVzU5dndtcWVLd3lSMFl5NkpqOGlXQSI7czo1OiJ0aW1lciI7Tzo4OiJzdGRDbGFzcyI6Mzp7czo1OiJzdGFydCI7aToxNTkzNjg1OTYxO3M6NDoibGFzdCI7aToxNTkzNjg2NTg3O3M6Mzoibm93IjtpOjE1OTM2ODY1OTA7fX1zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6MTp7czo5OiJjb21fc3RhZ2UiO086ODoic3RkQ2xhc3MiOjE6e3M6NDoiZWRpdCI7Tzo4OiJzdGRDbGFzcyI6MTp7czoxMjoib3JnYW5pc2F0aW9uIjtPOjg6InN0ZENsYXNzIjoyOntzOjI6ImlkIjthOjE6e2k6MDtpOjE7fXM6NDoiZGF0YSI7Tjt9fX19czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7czozOiIxMzIiO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 132, 'SLAM');
 
 -- --------------------------------------------------------
 
@@ -2260,9 +2293,9 @@ CREATE TABLE `stage_stage_offres` (
 --
 
 INSERT INTO `stage_stage_offres` (`id`, `titre`, `description`, `date_debut`, `date_fin`, `etat_offres_id`, `utilisateurs_id`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
-(1, 'Developpement', 'recherche un eleve avec des connaissances en HTML et css', '2020-06-01', '2020-06-26', 0, 4, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
-(2, 'Reseau', 'Je recherche un eleve avec des connaissances en cisco packet tracer', '2020-06-01', '2020-06-19', 0, 3, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
-(3, 'Reseau', 'Je recherche un eleve avec des connaissances en Vlan ', '2020-06-01', '2020-06-12', 0, 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
+(1, 'Developpement', 'recherche un eleve avec des connaissances en HTML et css', '2020-06-01', '2020-06-26', 2, 4, 'developpementz', 1, '2020-01-01 00:00:00', 0, '2020-07-02 10:37:57', 134, 0),
+(2, 'Reseau', 'Je recherche un eleve avec des connaissances en cisco packet tracer', '2020-06-01', '2020-06-19', 3, 3, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
+(3, 'Reseau', 'Je recherche un eleve avec des connaissances en Vlan ', '2020-06-01', '2020-06-12', 4, 2, '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2273,7 +2306,7 @@ INSERT INTO `stage_stage_offres` (`id`, `titre`, `description`, `date_debut`, `d
 CREATE TABLE `stage_stage_organisations` (
   `id` int(11) NOT NULL,
   `Nom` text NOT NULL,
-  `Activité` text NOT NULL,
+  `Activite` text NOT NULL,
   `adr_rue` text NOT NULL,
   `adr_cp` text NOT NULL,
   `adr_ville` text NOT NULL,
@@ -2290,7 +2323,7 @@ CREATE TABLE `stage_stage_organisations` (
 -- Déchargement des données de la table `stage_stage_organisations`
 --
 
-INSERT INTO `stage_stage_organisations` (`id`, `Nom`, `Activité`, `adr_rue`, `adr_cp`, `adr_ville`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
+INSERT INTO `stage_stage_organisations` (`id`, `Nom`, `Activite`, `adr_rue`, `adr_cp`, `adr_ville`, `alias`, `published`, `created`, `created_by`, `modified`, `modified_by`, `hits`) VALUES
 (1, 'Derome techs', 'informatique', '125 rue de la palourde', '75018', 'Paris', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
 (2, 'Sabur&co', 'Création de logiciel', '2 rue de la sainte marie', '75006', 'Paris', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0),
 (3, 'Loutreuil Production', 'Developpement', '15 rue de la boulette', '75004', 'Paris', '', 1, '2020-01-01 00:00:00', 0, '2020-01-01 00:00:00', 0, 0);
@@ -2616,9 +2649,9 @@ CREATE TABLE `stage_update_sites` (
 --
 
 INSERT INTO `stage_update_sites` (`update_site_id`, `name`, `type`, `location`, `enabled`, `last_check_timestamp`, `extra_query`) VALUES
-(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1593073923, ''),
-(2, 'Accredited Joomla! Translations', 'collection', 'https://update.joomla.org/language/translationlist_3.xml', 1, 1593073922, ''),
-(3, 'Joomla! Update Component Update Site', 'extension', 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', 1, 1593073922, '');
+(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1593680698, ''),
+(2, 'Accredited Joomla! Translations', 'collection', 'https://update.joomla.org/language/translationlist_3.xml', 1, 1593680702, ''),
+(3, 'Joomla! Update Component Update Site', 'extension', 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', 1, 1593680702, '');
 
 -- --------------------------------------------------------
 
@@ -2705,9 +2738,9 @@ CREATE TABLE `stage_users` (
 --
 
 INSERT INTO `stage_users` (`id`, `name`, `username`, `email`, `password`, `block`, `sendEmail`, `registerDate`, `lastvisitDate`, `activation`, `params`, `lastResetTime`, `resetCount`, `otpKey`, `otep`, `requireReset`) VALUES
-(132, 'Super Utilisateur', 'SLAM', 'emmanuel.derome@gmail.com', '$2y$10$rHr583FZNk8T1d3d.X6Ksu5tW/LbSlWGo4jE5ESRFMvqTKWlAlmOm', 0, 1, '2020-06-19 14:32:40', '2020-06-25 10:52:03', '0', '', '0000-00-00 00:00:00', 0, '', '', 0),
-(133, 'Directeur Technique', 'sgaston', 'directeurtechnique.louisarmand@gmail.com', '$2y$10$sweBuGUgrUCiZMu5ro/oXOBUM3lBBSWvg0LeH0iNJlqbS.Ok4qH..', 0, 0, '2020-06-19 15:49:53', '2020-06-25 07:13:33', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0),
-(134, 'Marcel DUPOND', 'mdupond', 'mdupond@monentreprise.fr', '$2y$10$i8gdvQsd4/7kv.pN5HuxfONDIF6XlH7n67IxHtP.rgSnpUqZdm0EK', 0, 0, '2020-06-19 15:51:35', '2020-06-19 16:44:32', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0);
+(132, 'Super Utilisateur', 'SLAM', 'emmanuel.derome@gmail.com', '$2y$10$rHr583FZNk8T1d3d.X6Ksu5tW/LbSlWGo4jE5ESRFMvqTKWlAlmOm', 0, 1, '2020-06-19 14:32:40', '2020-07-02 10:32:41', '0', '', '0000-00-00 00:00:00', 0, '', '', 0),
+(133, 'Directeur Technique', 'sgaston', 'directeurtechnique.louisarmand@gmail.com', '$2y$10$sweBuGUgrUCiZMu5ro/oXOBUM3lBBSWvg0LeH0iNJlqbS.Ok4qH..', 0, 0, '2020-06-19 15:49:53', '2020-06-30 12:28:16', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0),
+(134, 'Marcel DUPOND', 'mdupond', 'mdupond@monentreprise.fr', '$2y$10$i8gdvQsd4/7kv.pN5HuxfONDIF6XlH7n67IxHtP.rgSnpUqZdm0EK', 0, 0, '2020-06-19 15:51:35', '2020-07-02 10:16:35', '', '{\"admin_style\":\"\",\"admin_language\":\"\",\"language\":\"\",\"editor\":\"\",\"timezone\":\"\"}', '0000-00-00 00:00:00', 0, '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -3611,7 +3644,7 @@ ALTER TABLE `stage_viewlevels`
 -- AUTO_INCREMENT pour la table `stage_action_logs`
 --
 ALTER TABLE `stage_action_logs`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
 
 --
 -- AUTO_INCREMENT pour la table `stage_action_logs_extensions`
@@ -3659,7 +3692,7 @@ ALTER TABLE `stage_annuaire_typescontacts`
 -- AUTO_INCREMENT pour la table `stage_assets`
 --
 ALTER TABLE `stage_assets`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary Key', AUTO_INCREMENT=71;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary Key', AUTO_INCREMENT=73;
 
 --
 -- AUTO_INCREMENT pour la table `stage_banners`
@@ -3755,13 +3788,13 @@ ALTER TABLE `stage_languages`
 -- AUTO_INCREMENT pour la table `stage_menu`
 --
 ALTER TABLE `stage_menu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=118;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=120;
 
 --
 -- AUTO_INCREMENT pour la table `stage_menu_types`
 --
 ALTER TABLE `stage_menu_types`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT pour la table `stage_messages`
@@ -3773,7 +3806,7 @@ ALTER TABLE `stage_messages`
 -- AUTO_INCREMENT pour la table `stage_modules`
 --
 ALTER TABLE `stage_modules`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
 
 --
 -- AUTO_INCREMENT pour la table `stage_newsfeeds`
