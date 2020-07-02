@@ -16,6 +16,15 @@ $listDirn	= $this->escape($this->state->get('list.direction'));
 			<?php echo JHtml::_('grid.sort', 'COM_STAGE_ORGANISATIONS_ACTIVITE', 'orga.activite', $listDirn, $listOrder) ?>
         </th>
 		<th width="5%" style="min-width:55px" class="nowrap center hidden-phone">
+			<?php echo JHtml::_('grid.sort', 'Adresse rue', 'orga.adr_rue', $listDirn, $listOrder) ?>
+        </th>
+		<th width="5%" style="min-width:55px" class="nowrap center hidden-phone">
+			<?php echo JHtml::_('grid.sort', 'Code postal', 'orga.adr_cp', $listDirn, $listOrder) ?>
+        </th>
+		<th width="5%" style="min-width:55px" class="nowrap center hidden-phone">
+			<?php echo JHtml::_('grid.sort', 'Ville', 'orga.adr_ville', $listDirn, $listOrder) ?>
+        </th>
+		<th width="5%" style="min-width:55px" class="nowrap center hidden-phone">
 			<?php echo JHtml::_('grid.sort', 'Publié', 'orga.published', $listDirn, $listOrder) ?>
         </th>
         <th width="10%" style="min-width:120px" class="nowrap center hidden-tablet hidden-phone">

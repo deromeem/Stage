@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die('Restricted access');
 
-class StageModelUtilisateur extends JModelAdmin
+class StageModelOrganisation extends JModelAdmin
 {
 	protected $_compo = 'com_stage';
 	protected $_context = 'organisation';

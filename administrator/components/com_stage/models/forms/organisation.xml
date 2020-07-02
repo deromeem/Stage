@@ -13,6 +13,18 @@
             description="COM_STAGE_ORGANISATIONS_ACTIVITE"
             size="40" class="input-xxlarge input-large-text" default="" required="true"
         />
+		<field name="adr_rue" type="text" label="COM_STAGE_ORGANISATIONS_ADR_RUE"
+            description="COM_STAGE_ORGANISATIONS_ADR_RUE"
+            size="40" class="input-xxlarge input-large-text" default="" required="true"
+        />
+		<field name="adr_cp" type="text" label="COM_STAGE_ORGANISATIONS_ADR_CP"
+            description="COM_STAGE_ORGANISATIONS_ADR_CP"
+            size="40" class="input-xxlarge input-large-text" default="" required="true"
+        />
+		<field name="adr_ville" type="text" label="COM_STAGE_ORGANISATIONS_ADR_VILLE"
+            description="COM_STAGE_ORGANISATIONS_ADR_VILLE"
+            size="40" class="input-xxlarge input-large-text" default="" required="true"
+        />
 		<field name="alias" type="text"
 			label="JFIELD_ALIAS_LABEL"
 			description="JFIELD_ALIAS_DESC"

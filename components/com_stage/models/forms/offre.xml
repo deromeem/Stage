@@ -27,6 +27,16 @@
 			description="COM_STAGE_OFFRES_DATE_FIN"
 			size="40" class="inputbox" default="" required="false"
 		/>
+		<field name="etat_offres_id" type="sql" default="" label="COM_STAGE_OFFRES_ETAT_OFFRE" 
+			description="COM_STAGE_OFFRES_ETAT_OFFRE"
+			query="SELECT id, etat FROM #__stage_etat_offres ORDER BY etat" 
+			key_field="id" value_field="etat" required="false"
+		/>
+		<field name="utilisateurs_id" type="sql" default="" label="COM_STAGE_OFFRES_UTILISATEUR" 
+			description="COM_STAGE_OFFRES_UTILISATEUR"
+			query="SELECT id, nom FROM #__stage_utilisateurs ORDER BY nom" 
+			key_field="id" value_field="utilisateur" required="false"
+		/>
 		<field id="published" name="published" type="list"
 			label="JSTATUS"	description="JSTATUS"
 			class="chzn-color-state" size="1" default="1"

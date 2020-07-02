@@ -31,7 +31,7 @@ class StageViewOrganisations extends JViewLegacy
 		// ajoute la toolbar contenant les boutons d'actions
 		$this->addToolBar();
 		// invoque la méthode addSubmenu du fichier de soutien (helper)
-		organisationHelper::addSubmenu('Organisations');
+		UtilisateurHelper::addSubmenu('Organisations');
 		// prépare et affiche la sidebar à gauche de la liste
 		$this->prepareSideBar();
 		$this->sidebar = JHtmlSidebar::render();

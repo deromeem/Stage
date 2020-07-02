@@ -19,7 +19,7 @@ if ($saveOrder)
 		</td>
 		<td class="wrap has-context">
 			<div class="pull-left">
-				<a href="<?php echo JRoute::_('index.php?option=com_stage&task=utilisateur.edit&id='.(int) $item->id); ?>">
+				<a href="<?php echo JRoute::_('index.php?option=com_stage&task=organisation.edit&id='.(int) $item->id); ?>">
 					<?php echo $this->escape($item->nom); ?>
 				</a>
 			</div>

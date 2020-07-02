@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die('Restricted access');
  
-class StageViewUtilisateur extends JViewLegacy
+class StageViewOrganisation extends JViewLegacy
 {
 	protected $form;
 	protected $item;
@@ -38,18 +38,18 @@ class StageViewUtilisateur extends JViewLegacy
 
 		if ($isNew)
 		{
-			JToolbarHelper::apply('utilisateur.apply');
-			JToolbarHelper::save('utilisateur.save');
-			JToolbarHelper::save2new('utilisateur.save2new');
+			JToolbarHelper::apply('organisation.apply');
+			JToolbarHelper::save('organisation.save');
+			JToolbarHelper::save2new('organisation.save2new');
 		}
 		else
 		{
 			// if (!$checkedOut)
 			// {
-				JToolbarHelper::apply('utilisateur.apply');
-				JToolbarHelper::save('utilisateur.save');
+				JToolbarHelper::apply('organisation.apply');
+				JToolbarHelper::save('organisation.save');
 			// }
 		}
-		JToolBarHelper::cancel('utilisateur.cancel', $isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE');
+		JToolBarHelper::cancel('organisation.cancel', $isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE');
 	}
 }

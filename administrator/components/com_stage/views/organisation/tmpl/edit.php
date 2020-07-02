@@ -39,9 +39,17 @@ JHtml::_('formbehavior.chosen', 'select');
 
 		<?php echo JHtml::_('bootstrap.addTab', 'myTab', 'infos', JText::_('COM_STAGE_ADVANCED')); ?>
 		<div class="control-group">
-			<div class="control-label"><?php echo $this->form->getLabel('email'); ?></div>
-			<div class="controls"><?php echo $this->form->getInput('email'); ?></div>
-		</div>		
+			<div class="control-label"><?php echo $this->form->getLabel('adresse rue'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('adresse rue'); ?></div>
+		</div>	
+		<div class="control-group">
+			<div class="control-label"><?php echo $this->form->getLabel('code postal'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('code postal'); ?></div>
+		</div>
+		<div class="control-group">
+			<div class="control-label"><?php echo $this->form->getLabel('ville'); ?></div>
+			<div class="controls"><?php echo $this->form->getInput('ville'); ?></div>
+		</div>			
 	</div>		
 		
 		
