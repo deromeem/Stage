@@ -64,7 +64,11 @@ class StageModelOffres extends JModelList
 		$orderDirn = $this->state->get('list.direction', 'ASC');
 		$query->order($this->_db->escape($orderCol.' '.$orderDirn));
 
+<<<<<<< HEAD
 		echo nl2br(str_replace('#__','stage_',$query));			// TEST/DEBUG
+=======
+		//echo nl2br(str_replace('#__','stage_',$query));			// TEST/DEBUG
+>>>>>>> 0069969ceafeeb593f685c8b22e015df958f09c5
 		return $query;
 	}
 }

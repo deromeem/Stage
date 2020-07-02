@@ -5,32 +5,25 @@
 
 		<field name="asset_id" type="hidden" filter="unset" />
 		
-        <field name="motivation" type="text" label="COM_STAGE_CANDIDATURES_MOTIVATION"
-            description="COM_STAGE_CANDIDATURES_MOTIVATION"
+        <field name="titre" type="text" label="COM_STAGE_OFFRES_TITRE"
+            description="COM_STAGE_OFFRES_TITRE"
             size="40" class="input-xxlarge input-large-text" default="" required="true"
         />   
-		<field name="url_cv" type="text" label="COM_STAGE_CANDIDATURES_URL_CV"
-            description="COM_STAGE_CANDIDATURES_URL_CV"
+		<field name="description" type="text" label="COM_STAGE_OFFRES_DESCRIPTION"
+            description="COM_STAGE_OFFRES_DESCRIPTION"
             size="40" class="input-xxlarge input-large-text" default="" required="true"
         />
-		<field name="url_lettre" type="text" label="COM_STAGE_CANDIDATURES_URL_LETTRE"
-            description="COM_STAGE_CANDIDATURES_URL_LETTRE"
-            size="40" class="input-xxlarge input-large-text" default="" required="true"
-        />
-		<field name="etat_candidatures_id" type="sql" default="" label="COM_STAGE_CANDIDATURES_ETAT_CANDIDATURE" 
-			description="COM_STAGE_CANDIDATURES_ETAT_CANDIDATURE"
-			query="SELECT id, etat FROM #__stage_etat_candidatures ORDER BY etat" 
-			key_field="id" value_field="etat" required="false"
+        <field
+			name="date_debut" type="calendar" label="COM_STAGE_OFFRES_DATE_DEBUT"
+			description="COM_STAGE_OFFRES_DATE_DEBUT"
+			size="22" class="inputbox" default=""
+			format="%Y-%m-%d %H:%M:%S" filter="user_utc"
 		/>
-		<field name="etudiants_id" type="sql" default="" label="COM_STAGE_CANDIDATURES_ETUDIANT" 
-			description="COM_STAGE_CANDIDATURES_ETUDIANT"
-			query="SELECT id, email FROM #__stage_etudiants ORDER BY email" 
-			key_field="id" value_field="email" required="false"
-		/>
-		<field name="offres_id" type="sql" default="" label="COM_STAGE_CANDIDATURES_OFFRE" 
-			description="COM_STAGE_CANDIDATURES_OFFRE"
-			query="SELECT id, titre FROM #__stage_offres ORDER BY titre" 
-			key_field="id" value_field="titre" required="false"
+        <field
+			name="date_fin" type="calendar" label="COM_STAGE_OFFRES_DATE_FIN"
+			description="COM_STAGE_OFFRES_DATE_FIN"
+			size="22" class="inputbox" default=""
+			format="%Y-%m-%d %H:%M:%S" filter="user_utc"
 		/>
 		<field name="alias" type="text"
 			label="JFIELD_ALIAS_LABEL"
